@@ -1,4 +1,6 @@
 import { gql, useMutation } from '@apollo/client'
+import styled from '@emotion/styled'
+import { css, jsx } from '@emotion/react'
 
 const CREATE_POST_MUTATION = gql`
   mutation createPost($title: String!, $url: String!) {
@@ -46,28 +48,24 @@ export default function Submit() {
     })
   }
 
+  const Input = styled.input`
+    display: block;
+    margin-bottom: 10px;
+  `
   return (
-    <form onSubmit={handleSubmit}>
-      <h1>Submit</h1>
-      <input placeholder="title" name="title" type="text" required />
-      <input placeholder="url" name="url" type="url" required />
+    <form onSubmit={handleSubmit} css={css`
+      border-bottom: 1px solid #ececec;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    `}>
+      <h1 css={css`
+          font-size: 20px;
+        `}>Submit</h1>
+      <Input placeholder="title" name="title" type="text" required />
+      <Input placeholder="url" name="url" type="url" required />
       <button type="submit" disabled={loading}>
         Submit
       </button>
-      <style jsx>{`
-        form {
-          border-bottom: 1px solid #ececec;
-          padding-bottom: 20px;
-          margin-bottom: 20px;
-        }
-        h1 {
-          font-size: 20px;
-        }
-        input {
-          display: block;
-          margin-bottom: 10px;
-        }
-      `}</style>
     </form>
   )
 }

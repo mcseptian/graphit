@@ -1,8 +1,9 @@
+import { css, jsx } from '@emotion/react'
+
 export default function App({ children }) {
   return (
-    <main>
-      {children}
-      <style jsx global>{`
+    <main
+      css={css`
         * {
           font-family: Menlo, Monaco, 'Lucida Console', 'Liberation Mono',
             'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New',
@@ -41,7 +42,8 @@ export default function App({ children }) {
         button:focus {
           outline: none;
         }
-      `}</style>
+      `}>
+      {children}
     </main>
   )
 }
