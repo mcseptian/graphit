@@ -1,8 +1,9 @@
 import { useSessionStorage } from "../hooks/useSessionStorage";
 import myPokeListReducer from "../reducer/myPokeListReducer";
-import { createContext, useReducer, useEffect } from "react";
+import { createContext, useReducer, useEffect, useState } from "react";
 
 export const MyPokeListContext = createContext();
+export const ModalContext = createContext();
 
 export default function App({ children }) {
   const [localState, setLocalState] = useSessionStorage("data", []);
@@ -36,9 +37,19 @@ export default function App({ children }) {
     },
   };
 
+  const [modalState, setModalState] = useState(false);
+
+  const modalDispatcher = {
+    toggleModal: function () {
+      setModalState(!modalState);
+    },
+  };
+
   return (
     <MyPokeListContext.Provider value={{ state, dispatcher }}>
-      {children}
+      <ModalContext.Provider value={{ modalState, modalDispatcher }}>
+        {children}
+      </ModalContext.Provider>
     </MyPokeListContext.Provider>
   );
 }

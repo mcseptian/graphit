@@ -28,10 +28,20 @@ If you have trouble running dev server on windows, execute this command below be
 
 ```sh
 // PS
-$env:NODE_ENV="production"
+$env:NODE_ENV="development"
 
 // or CMD
-set NODE_ENV=production
+set NODE_ENV=development
+```
+
+If you have trouble running test on windows, execute this command below before running `yarn test` or `npm run test`
+
+```sh
+// PS
+$env:NODE_OPTIONS="--experimental-vm-modules"
+
+// or CMD
+set NODE_OPTIONS=--experimental-vm-modules
 ```
 
 ## Next Apollo Emotion Template

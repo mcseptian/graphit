@@ -2,12 +2,14 @@ import { css, jsx } from "@emotion/react";
 import Image from "next/image";
 
 export default function DetailCard(props) {
-  const { id, name, sprites, moves, types } = props.pokemon;
+  const { name, sprites, moves, types } = props.pokemon;
   const typeList = function (types) {
     const moveItem = types.map((type, index) => (
       <li
         key={index}
         css={css`
+          text-transform: uppercase;
+          font-family: sans-serif;
           font-style: normal;
           font-weight: 600;
           font-size: 11px;
@@ -17,21 +19,41 @@ export default function DetailCard(props) {
           padding: 10px;
           border-radius: 5px;
           border-width: 2px;
-          border-color: #282828;
+          border-color: #ddd;
           border-style: solid;
           margin: 5px;
         `}
       >
-        Type: {type.type.name}
+        {type.type.name}
       </li>
     ));
-    return <ul>{moveItem}</ul>;
+    return (
+      <ul
+        css={css`
+          display: block;
+          width: 100%;
+          height: auto;
+        `}
+      >
+        <h2
+          css={css`
+            margin-bottom: 20px;
+            margin-top: 0;
+          `}
+        >
+          Type:{" "}
+        </h2>
+        {moveItem}
+      </ul>
+    );
   };
   const moveList = function (moves) {
     const moveItem = moves.map((move, index) => (
       <li
         key={index}
         css={css`
+          text-transform: uppercase;
+          font-family: sans-serif;
           font-style: normal;
           font-weight: 600;
           font-size: 11px;
@@ -49,7 +71,25 @@ export default function DetailCard(props) {
         {move.move.name}
       </li>
     ));
-    return <ul> Move: {moveItem}</ul>;
+    return (
+      <ul
+        css={css`
+          display: block;
+          width: 100%;
+          height: auto;
+        `}
+      >
+        <h2
+          css={css`
+            margin-bottom: 20px;
+            margin-top: 0;
+          `}
+        >
+          Move:{" "}
+        </h2>
+        {moveItem}
+      </ul>
+    );
   };
   return (
     <div
@@ -63,7 +103,7 @@ export default function DetailCard(props) {
         filter: drop-shadow(0px 24px 64px rgba(0, 0, 0, 0.04));
       `}
     >
-      <Image src={sprites.front_default} alt="name" width={500} height={500} />
+      <Image src={sprites.front_default} alt="name" width={300} height={300} />
       <div
         css={css`
           display: flex;
@@ -74,18 +114,38 @@ export default function DetailCard(props) {
           background-color: #ffffff;
         `}
       >
-        <h3
+        <div
           css={css`
-            font-family: sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 25px;
-            color: #081f32;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
           `}
         >
-          {name}
-        </h3>
+          <h2
+            css={css`
+              margin-bottom: 20px;
+              margin-top: 0;
+            `}
+          >
+            Name:{" "}
+          </h2>
+          <h3
+            css={css`
+              font-family: sans-serif;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 20px;
+              line-height: 25px;
+              color: #081f32;
+              margin-bottom: 15px;
+              margin-top: 0;
+              text-transform: capitalize;
+            `}
+          >
+            {name}
+          </h3>
+        </div>
         {types && typeList(types)}
         {moves && moveList(moves)}
       </div>

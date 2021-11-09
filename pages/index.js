@@ -16,7 +16,7 @@ const IndexPage = () => (
     </Head>
     <Header />
     <InfoBox>
-      This page show a list of Pokemons’ names and the owned total. Click on the
+      This page show a list of Pokemons' names and the owned total. Click on the
       list item to see Pokemon Detail.
     </InfoBox>
     <PokemonList />

@@ -76,10 +76,30 @@ export default function PokemonList() {
   const listLength = myList && myList.length;
 
   return (
-    <section>
-      <ul>
+    <section
+      css={css`
+        margin-bottom: 20px;
+      `}
+    >
+      <ul
+        css={css`
+          display: flex;
+          flex-direction: column;
+          max-width: 80vw;
+          list-style: none;
+          margin: auto;
+          padding: 0;
+        `}
+      >
         {pokemons.results.map(({ id, image, name }, index) => (
-          <li key={index}>
+          <li
+            css={css`
+              border-radius: 10px;
+              max-height: 184px;
+              max-width: 660px;
+            `}
+            key={index}
+          >
             <div
               onClick={() =>
                 router.push({
@@ -96,7 +116,9 @@ export default function PokemonList() {
       {isMounted && (
         <InfoBox>
           You have{" "}
-          {listLength > 1 ? `${listLength} pokemons` : `${listLength} pokemon`}
+          {listLength && listLength >= 1
+            ? `${listLength} pokemons`
+            : `${listLength} pokemon`}{" "}
           on your list.
         </InfoBox>
       )}

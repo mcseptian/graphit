@@ -23,7 +23,7 @@ const DETAILPage = function () {
       <InfoBox>
         This page show a picture of the Pokemon with its moves and types. There
         is a button to catch the Pokemon, you can give the Pokemon a nickname
-        and add to your to `My Pokemon List’. You can catch the same pokemon
+        and add to your to My Pokemon List. You can catch the same pokemon
         multiple times but need to give a different nickname for each pokemon.
       </InfoBox>
       <PokemonDetail name={query.pokename} />

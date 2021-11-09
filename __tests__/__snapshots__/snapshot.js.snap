@@ -40,7 +40,7 @@ Array [
       }
     }
   >
-    This page show a list of Pokemons’ names and the owned total. Click on the list item to see Pokemon Detail.
+    This page show a list of Pokemons' names and the owned total. Click on the list item to see Pokemon Detail.
     <button
       css={
         Object {

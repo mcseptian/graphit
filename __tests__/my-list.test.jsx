@@ -1,3 +1,9 @@
+// __tests__/my-list.test.jsx
+
+/**
+ * @jest-environment jsdom
+ */
+
 import { getPage } from 'next-page-tester';
 import { screen, fireEvent } from '@testing-library/react';
 

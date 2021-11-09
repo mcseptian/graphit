@@ -11,22 +11,47 @@ const InfoBox = ({ children }) => {
   return (
     <div
       css={css`
-        display: ${infoDisplay ? "block" : "none"};
-        margin-top: 20px;
-        margin-bottom: 20px;
+        display: ${infoDisplay ? "flex" : "none"};
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         padding-top: 20px;
         padding-bottom: 20px;
         border-top: 1px solid #ececec;
         border-bottom: 1px solid #ececec;
       `}
     >
-      {children}
+      <div
+        css={css`
+          text-align: left;
+          margin-bottom: 20px;
+          font-family: sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 28px;
+          line-height: 26px;
+          color: #1dabf2;
+          padding: 20px 10px;
+          letter-spacing: 0.02em;
+        `}
+      >
+        {children}
+      </div>
       <button
         css={css`
           padding: 10px 20px;
-          border-radius: 5px
-          border-color: #fff;
+          border-radius: 5px;
+          border-width: 2px;
+          border-color: #f8593b;
+          border-style: solid;
           outline: none;
+          color: #ffffff;
+          background-color: #f8593b;
+          &:hover {
+            border: 2px solid #f8593b;
+            background-color: #0000;
+            color: #f8593b;
+          }
         `}
         onClick={handleClick}
       >

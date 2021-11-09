@@ -6,21 +6,33 @@ export default function ListCard({ name, image, nick }) {
     <div
       css={css`
         display: flex;
-        flex-basis: 100%;
+        flex-basis: 200px;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        filter: drop-shadow(0px 24px 64px rgba(0, 0, 0, 0.04));
       `}
     >
-      <Image src={image} alt="name" width={500} height={500} />
+      <div
+        css={css`
+          position: static;
+        `}
+      >
+        <Image
+          src={image}
+          alt={name}
+          width={200}
+          height={200}
+          layout="intrinsic"
+        />
+      </div>
       <div
         css={css`
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: center;
+          flex-grow: 2;
           padding: 30px;
           background-color: #ffffff;
         `}
@@ -30,12 +42,14 @@ export default function ListCard({ name, image, nick }) {
             font-family: sans-serif;
             font-style: normal;
             font-weight: normal;
-            font-size: 20px;
+            font-size: 24px;
             line-height: 25px;
             color: #081f32;
+            display: inline-block;
+            width: 100%;
           `}
         >
-          {name}
+          Name: {name}
         </h3>
 
         {nick && (
@@ -43,12 +57,14 @@ export default function ListCard({ name, image, nick }) {
             css={css`
               font-style: normal;
               font-weight: 600;
-              font-size: 11px;
+              font-size: 20px;
               line-height: 15px;
               color: #6e798c;
+              display: inline-block;
+              width: 100%;
             `}
           >
-            {nick}
+            Nickname: {nick}
           </p>
         )}
       </div>

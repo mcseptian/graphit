@@ -1,12 +1,14 @@
 import { css, jsx } from "@emotion/react";
 import { useContext, useState, useEffect } from "react";
-import { MyPokeListContext } from "../components/App";
-import ErrorMessage from "../components/ErrorMessage";
+import { MyPokeListContext, ModalContext } from "./App";
+import ErrorMessage from "./ErrorMessage";
 import InfoBox from "./InfoBox";
 import Link from "next/link";
 
-export default function Submit({ pokemon }) {
+export default function Submit({ pokemon, onChange }) {
   const { state, dispatcher } = useContext(MyPokeListContext);
+
+  const { modalState, modalDispatcher } = useContext(ModalContext);
 
   const { id, sprites, name } = pokemon;
 
@@ -44,54 +46,145 @@ export default function Submit({ pokemon }) {
   }, [state]);
 
   return (
-    <form
-      onSubmit={handleSubmit}
+    <div
       css={css`
-        padding: 20px;
-        margin-bottom: 20px;
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        lefft: 0;
+        bottom: 0;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff8;
+        backdrop-filter: blur(10px);
       `}
     >
-      <h1
+      <form
+        onSubmit={handleSubmit}
         css={css`
-          font-size: 20px;
-          line-height: 1.25;
+          position: relative;
+          padding: 20px;
+          margin-bottom: 20px;
+          max-width: 300px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          border-radius: 20px;
+          background-color: #cbf5f2;
+          box-shadow: 30px 30px 60px #add0ce, -30px -30px 60px #e9ffff;
         `}
       >
-        Yeay, you catch {name}. You have to give it a nickname.
-      </h1>
-      <input
-        placeholder="nickname"
-        name="nickname"
-        type="text"
-        onChange={handleChange}
-        value={value}
-        required
-      />
-      <button
-        css={css`
-          padding: 10px 20px;
-          border-radius: 5px
-          border-color: #fff;
-          outline: none;
-        `}
-        type="submit"
-        disabled={loading}
-      >
-        Submit
-      </button>
+        <h1
+          css={css`
+            font-size: 20px;
+            line-height: 1.25;
+            text-align: center;
+          `}
+        >
+          Yeay, you catch {name}. You have to give it a nickname.
+        </h1>
+        <input
+          css={css`
+            padding: 10px 20px;
+            outline: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #007ae9;
+          `}
+          placeholder="nickname"
+          name="nickname"
+          type="text"
+          onChange={handleChange}
+          value={value}
+          required
+        />
+        <div
+          css={css`
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+          `}
+        >
+          <button
+            css={css`
+              padding: 10px 20px;
+              border-radius: 5px;
+              border-width: 2px;
+              border-color: #2ecc71;
+              border-style: solid;
+              color: #fff;
+              outline: none;
+              background-color: #2ecc71;
+              &:hover {
+                border: 2px solid #2ecc71;
+                background-color: #0000;
+                color: #2ecc71;
+              }
+            `}
+            type="submit"
+            disabled={loading}
+          >
+            Submit
+          </button>
+          <button
+            css={css`
+              position: absolute;
+              top: 5px;
+              right: 5px;
+              border-radius: 50%;
+              border-width: 2px;
+              border-color: #fff;
+              border-style: solid;
+              color: #f8593b;
+              outline: none;
+              background-color: #fff;
+              width: 34px;
+              height: 34px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              &:hover {
+                border: 2px solid #f8593b;
+                background-color: #f8593b;
+                color: #fff;
+              }
+            `}
+            type="reset"
+            disabled={loading}
+            onClick={() => modalDispatcher.toggleModal()}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 0 24 24"
+              width="24px"
+              fill="currentColor"
+            >
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" />
+            </svg>
+          </button>
+        </div>
 
-      {isFailed && (
-        <ErrorMessage message="Nickname already taken, you have to pick another name" />
-      )}
+        {isFailed && (
+          <ErrorMessage message="Nickname already taken, you have to pick another name" />
+        )}
 
-      {isSuccess && (
-        <InfoBox>
-          Yeay, you have your own pokemon. Let's check them on your list.
-          <Link href="/my-list">
-            <a>DETAIL</a>
-          </Link>
-        </InfoBox>
-      )}
-    </form>
+        {isSuccess && (
+          <InfoBox>
+            Yeay, you have your own pokemon. Let's check them on your list.
+            <Link href="/my-list">
+              <a>DETAIL</a>
+            </Link>
+          </InfoBox>
+        )}
+      </form>
+    </div>
   );
 }

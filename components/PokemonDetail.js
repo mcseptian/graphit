@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { gql, useQuery } from "@apollo/client";
 import { css, jsx } from "@emotion/react";
+import { ModalContext } from "./App";
 import ErrorMessage from "./ErrorMessage";
 import Submit from "./Submit";
 import DetailCard from "./DetailCard";
@@ -31,8 +32,11 @@ export const POKE_QUERY = gql`
 `;
 
 export default function PokemonDetail({ name }) {
-  const [displayDetail, setDisplayDetail] = useState(false);
   const [catchable, setCatchable] = useState(false);
+
+  const { modalState, modalDispatcher } = useContext(ModalContext);
+
+  const { toggleModal } = modalDispatcher;
 
   const pokemonsQueryVars = {
     name: name,
@@ -53,7 +57,7 @@ export default function PokemonDetail({ name }) {
   const handleClick = () => {
     setCatchable(true);
     if (catchable) {
-      setDisplayDetail(!displayDetail);
+      toggleModal();
       setCatchable(!catchable);
     }
   };
@@ -63,21 +67,46 @@ export default function PokemonDetail({ name }) {
 
   return (
     <section>
-      <div>
+      <div
+        css={css`
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 20px;
+        `}
+      >
         <DetailCard pokemon={pokemon} />
       </div>
-      <button
+      <div
         css={css`
-          padding: 10px 20px;
-          border-radius: 5px
-          border-color: #fff;
-          outline: none;
-          `}
-        onClick={handleClick}
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        `}
       >
-        Catch
-      </button>
-      {displayDetail && <Submit pokemon={pokemon} />}
+        <button
+          css={css`
+            padding: 10px 20px;
+            border-radius: 5px;
+            border-width: 2px;
+            border-color: #f8593b;
+            border-style: solid;
+            outline: none;
+            color: #ffffff;
+            background-color: #f8593b;
+            &:hover {
+              border: 2px solid #f8593b;
+              background-color: #0000;
+              color: #f8593b;
+            }
+          `}
+          onClick={handleClick}
+        >
+          Catch
+        </button>
+      </div>
+
+      {modalState && <Submit pokemon={pokemon} />}
     </section>
   );
 }
