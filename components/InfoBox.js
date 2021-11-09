@@ -41,7 +41,7 @@ const InfoBox = ({ children }) => {
         css={css`
           font-family: "Ubuntu", sans-serif;
           font-style: normal;
-          font-weight: 400;
+          font-weight: normal;
           padding: 10px 20px;
           border-radius: 5px;
           border-width: 2px;

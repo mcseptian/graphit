@@ -19,7 +19,11 @@ export default function MyPokemonList() {
   const myPokemons = myList !== null && isMounted;
 
   return (
-    <section>
+    <section
+      css={css`
+        margin-bottom: 20px;
+      `}
+    >
       <ul
         css={css`
           flex-direction: row;

@@ -9,11 +9,11 @@ export default function DetailCard(props) {
         key={index}
         css={css`
           text-transform: uppercase;
-          font-family: "Ubuntu", sans-serif;
+          font-family: "Zen Kaku Gothic Antique", sans-serif;
+          font-weight: 500;
           font-style: normal;
-          font-weight: 600;
-          font-size: 11px;
-          line-height: 15px;
+          font-size: 16px;
+          line-height: 1;
           display: inline-block;
           color: #6e798c;
           padding: 10px;
@@ -42,6 +42,10 @@ export default function DetailCard(props) {
       >
         <h2
           css={css`
+            font-family: "Zen Kaku Gothic Antique", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 20px;
             margin-bottom: 20px;
             margin-top: 0;
           `}
@@ -58,7 +62,7 @@ export default function DetailCard(props) {
         key={index}
         css={css`
           text-transform: uppercase;
-          font-family: "Zen Kaku Gothic Antique", , sans-serif;
+          font-family: "Zen Kaku Gothic Antique", sans-serif;
           font-weight: 500;
           font-style: normal;
           font-size: 11px;
@@ -91,6 +95,10 @@ export default function DetailCard(props) {
       >
         <h2
           css={css`
+            font-family: "Zen Kaku Gothic Antique", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 20px;
             margin-bottom: 20px;
             margin-top: 0;
           `}
@@ -134,6 +142,10 @@ export default function DetailCard(props) {
         >
           <h2
             css={css`
+              font-family: "Zen Kaku Gothic Antique", sans-serif;
+              font-weight: 500;
+              font-style: normal;
+              font-size: 20px;
               margin-bottom: 20px;
               margin-top: 0;
             `}

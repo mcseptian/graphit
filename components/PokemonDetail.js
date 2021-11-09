@@ -65,7 +65,11 @@ export default function PokemonDetail({ name }) {
   const { pokemon } = data;
 
   return (
-    <section>
+    <section
+      css={css`
+        margin-bottom: 20px;
+      `}
+    >
       <div
         css={css`
           display: flex;
@@ -85,6 +89,9 @@ export default function PokemonDetail({ name }) {
       >
         <button
           css={css`
+            font-family: "Ubuntu", sans-serif;
+            font-style: normal;
+            font-weight: normal;
             padding: 10px 20px;
             border-radius: 5px;
             border-width: 2px;

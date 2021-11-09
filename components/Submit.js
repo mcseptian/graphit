@@ -81,8 +81,9 @@ export default function Submit({ pokemon, onChange }) {
       >
         <h1
           css={css`
-            font-family: "Zen Kaku Gothic Antique", , sans-serif;
+            font-family: "Zen Kaku Gothic Antique", sans-serif;
             font-weight: 500;
+            font-style: normal;
             font-size: 20px;
             line-height: 1.25;
             text-align: center;
@@ -118,6 +119,9 @@ export default function Submit({ pokemon, onChange }) {
         >
           <button
             css={css`
+              font-family: "Ubuntu", sans-serif;
+              font-style: normal;
+              font-weight: normal;
               padding: 10px 20px;
               border-radius: 5px;
               border-width: 2px;
