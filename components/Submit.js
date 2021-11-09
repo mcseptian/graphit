@@ -105,8 +105,8 @@ export default function Submit({ pokemon, onChange }) {
             border-width: 2px;
             border-style: solid;
             border-color: #007ae9;
-            min-width: 200 px;
-            max-width: 300 px;
+            min-width: 200px;
+            max-width: 300px;
             width: 100%;
           `}
           placeholder="nickname"
