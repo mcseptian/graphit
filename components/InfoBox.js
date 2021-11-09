@@ -23,13 +23,13 @@ const InfoBox = ({ children }) => {
     >
       <div
         css={css`
-          text-align: left;
-          margin-bottom: 20px;
-          font-family: sans-serif;
+          font-family: "Ubuntu", sans-serif;
           font-style: normal;
+          margin-bottom: 20px;
           font-weight: normal;
           font-size: 28px;
           line-height: 26px;
+          text-align: left;
           color: #1dabf2;
           padding: 20px 10px;
           letter-spacing: 0.02em;
@@ -39,6 +39,9 @@ const InfoBox = ({ children }) => {
       </div>
       <button
         css={css`
+          font-family: "Ubuntu", sans-serif;
+          font-style: normal;
+          font-weight: 400;
           padding: 10px 20px;
           border-radius: 5px;
           border-width: 2px;

@@ -81,6 +81,8 @@ export default function Submit({ pokemon, onChange }) {
       >
         <h1
           css={css`
+            font-family: "Zen Kaku Gothic Antique", , sans-serif;
+            font-weight: 500;
             font-size: 20px;
             line-height: 1.25;
             text-align: center;

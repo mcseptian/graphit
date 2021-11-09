@@ -123,7 +123,7 @@ export default function PokemonList() {
       {isMounted && (
         <InfoBox>
           You have{" "}
-          {listLength && listLength >= 1
+          {listLength && listLength > 1
             ? `${listLength} pokemons`
             : `${listLength} pokemon`}{" "}
           on your list.
@@ -132,11 +132,17 @@ export default function PokemonList() {
       {areMorePosts && (
         <button
           css={css`
+            font-family: "Ubuntu", sans-serif;
+            font-style: normal;
             padding: 10px 20px;
-            border-radius: 5px
+            border-radius: 5px;
             border-color: #fff;
+            border-style: solid;
             outline: none;
-            `}
+            margin: 20px auto;
+            display: block;
+            margin: 20px auto;
+          `}
           onClick={loadMorePosts}
           disabled={loadingMorePosts}
         >

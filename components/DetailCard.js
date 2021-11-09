@@ -9,7 +9,7 @@ export default function DetailCard(props) {
         key={index}
         css={css`
           text-transform: uppercase;
-          font-family: sans-serif;
+          font-family: "Ubuntu", sans-serif;
           font-style: normal;
           font-weight: 600;
           font-size: 11px;
@@ -22,6 +22,11 @@ export default function DetailCard(props) {
           border-color: #ddd;
           border-style: solid;
           margin: 5px;
+          &:hover {
+            color: #fff;
+            background-color: #6e798c;
+            border-color: #6e798c;
+          }
         `}
       >
         {type.type.name}
@@ -53,9 +58,9 @@ export default function DetailCard(props) {
         key={index}
         css={css`
           text-transform: uppercase;
-          font-family: sans-serif;
+          font-family: "Zen Kaku Gothic Antique", , sans-serif;
+          font-weight: 500;
           font-style: normal;
-          font-weight: 600;
           font-size: 11px;
           line-height: 15px;
           display: inline-block;
@@ -66,6 +71,11 @@ export default function DetailCard(props) {
           border-color: #ddd;
           border-style: solid;
           margin: 5px;
+          &:hover {
+            color: #fff;
+            background-color: #6e798c;
+            border-color: #6e798c;
+          }
         `}
       >
         {move.move.name}
@@ -132,7 +142,7 @@ export default function DetailCard(props) {
           </h2>
           <h3
             css={css`
-              font-family: sans-serif;
+              font-family: "Ubuntu", sans-serif;
               font-style: normal;
               font-weight: normal;
               font-size: 20px;

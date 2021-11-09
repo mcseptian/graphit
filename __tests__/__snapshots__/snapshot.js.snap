@@ -5,9 +5,9 @@ Array [
   <header
     css={
       Object {
-        "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkhlYWRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFTYyIsImZpbGUiOiJIZWFkZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tIFwibmV4dC9yb3V0ZXJcIjtcbmltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjtcbmltcG9ydCB7IGNzcywganN4IH0gZnJvbSBcIkBlbW90aW9uL3JlYWN0XCI7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhlYWRlcigpIHtcbiAgY29uc3QgeyBwYXRobmFtZSB9ID0gdXNlUm91dGVyKCk7XG5cbiAgcmV0dXJuIChcbiAgICA8aGVhZGVyXG4gICAgICBjc3M9e2Nzc2BcbiAgICAgICAgaGVhZGVyIHtcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAyNXB4O1xuICAgICAgICB9XG4gICAgICAgIGEge1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgICBtYXJnaW4tcmlnaHQ6IDE1cHg7XG4gICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICB9XG4gICAgICAgIC5pcy1hY3RpdmUge1xuICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xuICAgICAgICB9XG4gICAgICBgfVxuICAgID5cbiAgICAgIDxMaW5rIGhyZWY9XCIvXCI+XG4gICAgICAgIDxhIGNsYXNzTmFtZT17cGF0aG5hbWUgPT09IFwiL1wiID8gXCJpcy1hY3RpdmVcIiA6IFwiXCJ9PkhvbWU8L2E+XG4gICAgICA8L0xpbms+XG4gICAgICA8TGluayBocmVmPVwiL215LWxpc3RcIj5cbiAgICAgICAgPGEgY2xhc3NOYW1lPXtwYXRobmFtZSA9PT0gXCIvbXktbGlzdFwiID8gXCJpcy1hY3RpdmVcIiA6IFwiXCJ9Pk15LUxpc3Q8L2E+XG4gICAgICA8L0xpbms+XG4gICAgPC9oZWFkZXI+XG4gICk7XG59XG4iXX0= */",
-        "name": "4cajdb-Header",
-        "styles": "header{margin-bottom:25px;}a{font-size:14px;margin-right:15px;text-decoration:none;}.is-active{text-decoration:underline;};label:Header;",
+        "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkhlYWRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFTYyIsImZpbGUiOiJIZWFkZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tIFwibmV4dC9yb3V0ZXJcIjtcbmltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjtcbmltcG9ydCB7IGNzcywganN4IH0gZnJvbSBcIkBlbW90aW9uL3JlYWN0XCI7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhlYWRlcigpIHtcbiAgY29uc3QgeyBwYXRobmFtZSB9ID0gdXNlUm91dGVyKCk7XG5cbiAgcmV0dXJuIChcbiAgICA8aGVhZGVyXG4gICAgICBjc3M9e2Nzc2BcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1hcm91bmQ7XG4gICAgICAgIHBhZGRpbmc6IDI1cHg7XG4gICAgICAgIHBvc2l0aW9uOiBzdGlja3k7XG4gICAgICAgIHRvcDogMDtcbiAgICAgICAgbGVmdDogMDtcbiAgICAgICAgcmlnaHQ6IDA7XG4gICAgICAgIGJhY2tncm91bmQ6ICNmZmY7XG4gICAgICAgIHotaW5kZXg6IDEwO1xuICAgICAgYH1cbiAgICA+XG4gICAgICA8TGluayBocmVmPVwiL1wiPlxuICAgICAgICA8YSBjbGFzc05hbWU9e3BhdGhuYW1lID09PSBcIi9cIiA/IFwiaXMtYWN0aXZlXCIgOiBcIlwifSB0aXRsZT1cIkhvbWVcIj5cbiAgICAgICAgICA8c3ZnXG4gICAgICAgICAgICB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCJcbiAgICAgICAgICAgIGhlaWdodD1cIjI0cHhcIlxuICAgICAgICAgICAgdmlld0JveD1cIjAgMCAyNCAyNFwiXG4gICAgICAgICAgICB3aWR0aD1cIjI0cHhcIlxuICAgICAgICAgICAgZmlsbD1cImN1cnJlbnRDb2xvclwiXG4gICAgICAgICAgPlxuICAgICAgICAgICAgPHBhdGggZD1cIk0wIDBoMjR2MjRIMFYwelwiIGZpbGw9XCJub25lXCIgLz5cbiAgICAgICAgICAgIDxwYXRoIGQ9XCJNMTAgMTl2LTVoNHY1YzAgLjU1LjQ1IDEgMSAxaDNjLjU1IDAgMS0uNDUgMS0xdi03aDEuN2MuNDYgMCAuNjgtLjU3LjMzLS44N0wxMi42NyAzLjZjLS4zOC0uMzQtLjk2LS4zNC0xLjM0IDBsLTguMzYgNy41M2MtLjM0LjMtLjEzLjg3LjMzLjg3SDV2N2MwIC41NS40NSAxIDEgMWgzYy41NSAwIDEtLjQ1IDEtMXpcIiAvPlxuICAgICAgICAgIDwvc3ZnPlxuICAgICAgICA8L2E+XG4gICAgICA8L0xpbms+XG4gICAgICA8TGluayBocmVmPVwiL215LWxpc3RcIj5cbiAgICAgICAgPGFcbiAgICAgICAgICBjbGFzc05hbWU9e3BhdGhuYW1lID09PSBcIi9teS1saXN0XCIgPyBcImlzLWFjdGl2ZVwiIDogXCJcIn1cbiAgICAgICAgICB0aXRsZT1cIk15LUxpc3RcIlxuICAgICAgICA+XG4gICAgICAgICAgPHN2Z1xuICAgICAgICAgICAgeG1sbnM9XCJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Z1wiXG4gICAgICAgICAgICBoZWlnaHQ9XCIyNHB4XCJcbiAgICAgICAgICAgIHZpZXdCb3g9XCIwIDAgMjQgMjRcIlxuICAgICAgICAgICAgd2lkdGg9XCIyNHB4XCJcbiAgICAgICAgICAgIGZpbGw9XCJjdXJyZW50Q29sb3JcIlxuICAgICAgICAgID5cbiAgICAgICAgICAgIDxyZWN0IGZpbGw9XCJub25lXCIgaGVpZ2h0PVwiMjRcIiB3aWR0aD1cIjI0XCIgLz5cbiAgICAgICAgICAgIDxnPlxuICAgICAgICAgICAgICA8cGF0aCBkPVwiTTIyLDhjMC0wLjU1LTAuNDUtMS0xLTFoLTdjLTAuNTUsMC0xLDAuNDUtMSwxczAuNDUsMSwxLDFoN0MyMS41NSw5LDIyLDguNTUsMjIsOHogTTEzLDE2YzAsMC41NSwwLjQ1LDEsMSwxaDcgYzAuNTUsMCwxLTAuNDUsMS0xYzAtMC41NS0wLjQ1LTEtMS0xaC03QzEzLjQ1LDE1LDEzLDE1LjQ1LDEzLDE2eiBNMTAuNDcsNC42M2MwLjM5LDAuMzksMC4zOSwxLjAyLDAsMS40MWwtNC4yMyw0LjI1IGMtMC4zOSwwLjM5LTEuMDIsMC4zOS0xLjQyLDBMMi43LDguMTZjLTAuMzktMC4zOS0wLjM5LTEuMDIsMC0xLjQxYzAuMzktMC4zOSwxLjAyLTAuMzksMS40MSwwbDEuNDIsMS40MmwzLjU0LTMuNTQgQzkuNDUsNC4yNSwxMC4wOSw0LjI1LDEwLjQ3LDQuNjN6IE0xMC40OCwxMi42NGMwLjM5LDAuMzksMC4zOSwxLjAyLDAsMS40MWwtNC4yMyw0LjI1Yy0wLjM5LDAuMzktMS4wMiwwLjM5LTEuNDIsMEwyLjcsMTYuMTYgYy0wLjM5LTAuMzktMC4zOS0xLjAyLDAtMS40MXMxLjAyLTAuMzksMS40MSwwbDEuNDIsMS40MmwzLjU0LTMuNTRDOS40NSwxMi4yNSwxMC4wOSwxMi4yNSwxMC40OCwxMi42NEwxMC40OCwxMi42NHpcIiAvPlxuICAgICAgICAgICAgPC9nPlxuICAgICAgICAgIDwvc3ZnPlxuICAgICAgICA8L2E+XG4gICAgICA8L0xpbms+XG4gICAgPC9oZWFkZXI+XG4gICk7XG59XG4iXX0= */",
+        "name": "q88we5-Header",
+        "styles": "display:flex;align-items:center;justify-content:space-around;padding:25px;position:sticky;top:0;left:0;right:0;background:#fff;z-index:10;label:Header;",
         "toString": [Function],
       }
     }
@@ -17,36 +17,80 @@ Array [
       href="/"
       onClick={[Function]}
       onMouseEnter={[Function]}
+      title="Home"
     >
-      Home
+      <svg
+        fill="currentColor"
+        height="24px"
+        viewBox="0 0 24 24"
+        width="24px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
+        />
+        <path
+          d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z"
+        />
+      </svg>
     </a>
     <a
       className="is-active"
       href="/my-list"
       onClick={[Function]}
       onMouseEnter={[Function]}
+      title="My-List"
     >
-      My-List
+      <svg
+        fill="currentColor"
+        height="24px"
+        viewBox="0 0 24 24"
+        width="24px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect
+          fill="none"
+          height="24"
+          width="24"
+        />
+        <g>
+          <path
+            d="M22,8c0-0.55-0.45-1-1-1h-7c-0.55,0-1,0.45-1,1s0.45,1,1,1h7C21.55,9,22,8.55,22,8z M13,16c0,0.55,0.45,1,1,1h7 c0.55,0,1-0.45,1-1c0-0.55-0.45-1-1-1h-7C13.45,15,13,15.45,13,16z M10.47,4.63c0.39,0.39,0.39,1.02,0,1.41l-4.23,4.25 c-0.39,0.39-1.02,0.39-1.42,0L2.7,8.16c-0.39-0.39-0.39-1.02,0-1.41c0.39-0.39,1.02-0.39,1.41,0l1.42,1.42l3.54-3.54 C9.45,4.25,10.09,4.25,10.47,4.63z M10.48,12.64c0.39,0.39,0.39,1.02,0,1.41l-4.23,4.25c-0.39,0.39-1.02,0.39-1.42,0L2.7,16.16 c-0.39-0.39-0.39-1.02,0-1.41s1.02-0.39,1.41,0l1.42,1.42l3.54-3.54C9.45,12.25,10.09,12.25,10.48,12.64L10.48,12.64z"
+          />
+        </g>
+      </svg>
     </a>
   </header>,
   <div
     css={
       Object {
-        "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkluZm9Cb3guanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBWWMiLCJmaWxlIjoiSW5mb0JveC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGNzcywganN4IH0gZnJvbSBcIkBlbW90aW9uL3JlYWN0XCI7XG5pbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBJbmZvQm94ID0gKHsgY2hpbGRyZW4gfSkgPT4ge1xuICBjb25zdCBbaW5mb0Rpc3BsYXksIHNldEluZm9EaXNwbGF5XSA9IHVzZVN0YXRlKHRydWUpO1xuXG4gIGNvbnN0IGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHNldEluZm9EaXNwbGF5KGZhbHNlKTtcbiAgfTtcblxuICByZXR1cm4gKFxuICAgIDxkaXZcbiAgICAgIGNzcz17Y3NzYFxuICAgICAgICBkaXNwbGF5OiAke2luZm9EaXNwbGF5ID8gXCJibG9ja1wiIDogXCJub25lXCJ9O1xuICAgICAgICBtYXJnaW4tdG9wOiAyMHB4O1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xuICAgICAgICBwYWRkaW5nLXRvcDogMjBweDtcbiAgICAgICAgcGFkZGluZy1ib3R0b206IDIwcHg7XG4gICAgICAgIGJvcmRlci10b3A6IDFweCBzb2xpZCAjZWNlY2VjO1xuICAgICAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI2VjZWNlYztcbiAgICAgIGB9XG4gICAgPlxuICAgICAge2NoaWxkcmVufVxuICAgICAgPGJ1dHRvblxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICBwYWRkaW5nOiAxMHB4IDIwcHg7XG4gICAgICAgICAgYm9yZGVyLXJhZGl1czogNXB4XG4gICAgICAgICAgYm9yZGVyLWNvbG9yOiAjZmZmO1xuICAgICAgICAgIG91dGxpbmU6IG5vbmU7XG4gICAgICAgIGB9XG4gICAgICAgIG9uQ2xpY2s9e2hhbmRsZUNsaWNrfVxuICAgICAgPlxuICAgICAgICBDbG9zZVxuICAgICAgPC9idXR0b24+XG4gICAgPC9kaXY+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBJbmZvQm94O1xuIl19 */",
-        "name": "k37fz5-InfoBox",
+        "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkluZm9Cb3guanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBWWMiLCJmaWxlIjoiSW5mb0JveC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGNzcywganN4IH0gZnJvbSBcIkBlbW90aW9uL3JlYWN0XCI7XG5pbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBJbmZvQm94ID0gKHsgY2hpbGRyZW4gfSkgPT4ge1xuICBjb25zdCBbaW5mb0Rpc3BsYXksIHNldEluZm9EaXNwbGF5XSA9IHVzZVN0YXRlKHRydWUpO1xuXG4gIGNvbnN0IGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHNldEluZm9EaXNwbGF5KGZhbHNlKTtcbiAgfTtcblxuICByZXR1cm4gKFxuICAgIDxkaXZcbiAgICAgIGNzcz17Y3NzYFxuICAgICAgICBkaXNwbGF5OiAke2luZm9EaXNwbGF5ID8gXCJmbGV4XCIgOiBcIm5vbmVcIn07XG4gICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICBwYWRkaW5nLXRvcDogMjBweDtcbiAgICAgICAgcGFkZGluZy1ib3R0b206IDIwcHg7XG4gICAgICAgIGJvcmRlci10b3A6IDFweCBzb2xpZCAjZWNlY2VjO1xuICAgICAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI2VjZWNlYztcbiAgICAgIGB9XG4gICAgPlxuICAgICAgPGRpdlxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICBmb250LWZhbWlseTogXCJVYnVudHVcIiwgc2Fucy1zZXJpZjtcbiAgICAgICAgICBmb250LXN0eWxlOiBub3JtYWw7XG4gICAgICAgICAgbWFyZ2luLWJvdHRvbTogMjBweDtcbiAgICAgICAgICBmb250LXdlaWdodDogbm9ybWFsO1xuICAgICAgICAgIGZvbnQtc2l6ZTogMjhweDtcbiAgICAgICAgICBsaW5lLWhlaWdodDogMjZweDtcbiAgICAgICAgICB0ZXh0LWFsaWduOiBsZWZ0O1xuICAgICAgICAgIGNvbG9yOiAjMWRhYmYyO1xuICAgICAgICAgIHBhZGRpbmc6IDIwcHggMTBweDtcbiAgICAgICAgICBsZXR0ZXItc3BhY2luZzogMC4wMmVtO1xuICAgICAgICBgfVxuICAgICAgPlxuICAgICAgICB7Y2hpbGRyZW59XG4gICAgICA8L2Rpdj5cbiAgICAgIDxidXR0b25cbiAgICAgICAgY3NzPXtjc3NgXG4gICAgICAgICAgZm9udC1mYW1pbHk6IFwiVWJ1bnR1XCIsIHNhbnMtc2VyaWY7XG4gICAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsO1xuICAgICAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XG4gICAgICAgICAgcGFkZGluZzogMTBweCAyMHB4O1xuICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICAgICAgICBib3JkZXItd2lkdGg6IDJweDtcbiAgICAgICAgICBib3JkZXItY29sb3I6ICNmODU5M2I7XG4gICAgICAgICAgYm9yZGVyLXN0eWxlOiBzb2xpZDtcbiAgICAgICAgICBvdXRsaW5lOiBub25lO1xuICAgICAgICAgIGNvbG9yOiAjZmZmZmZmO1xuICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmODU5M2I7XG4gICAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgICBib3JkZXI6IDJweCBzb2xpZCAjZjg1OTNiO1xuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzAwMDA7XG4gICAgICAgICAgICBjb2xvcjogI2Y4NTkzYjtcbiAgICAgICAgICB9XG4gICAgICAgIGB9XG4gICAgICAgIG9uQ2xpY2s9e2hhbmRsZUNsaWNrfVxuICAgICAgPlxuICAgICAgICBDbG9zZVxuICAgICAgPC9idXR0b24+XG4gICAgPC9kaXY+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBJbmZvQm94O1xuIl19 */",
+        "name": "112y11m-InfoBox",
         "next": undefined,
-        "styles": "display:block;margin-top:20px;margin-bottom:20px;padding-top:20px;padding-bottom:20px;border-top:1px solid #ececec;border-bottom:1px solid #ececec;;label:InfoBox;",
+        "styles": "display:flex;flex-direction:column;align-items:center;justify-content:center;padding-top:20px;padding-bottom:20px;border-top:1px solid #ececec;border-bottom:1px solid #ececec;;label:InfoBox;",
         "toString": [Function],
       }
     }
   >
-    This page show a list of Pokemons' names and the owned total. Click on the list item to see Pokemon Detail.
+    <div
+      css={
+        Object {
+          "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkluZm9Cb3guanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBd0JnQiIsImZpbGUiOiJJbmZvQm94LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3NzLCBqc3ggfSBmcm9tIFwiQGVtb3Rpb24vcmVhY3RcIjtcbmltcG9ydCB7IHVzZVN0YXRlIH0gZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IEluZm9Cb3ggPSAoeyBjaGlsZHJlbiB9KSA9PiB7XG4gIGNvbnN0IFtpbmZvRGlzcGxheSwgc2V0SW5mb0Rpc3BsYXldID0gdXNlU3RhdGUodHJ1ZSk7XG5cbiAgY29uc3QgaGFuZGxlQ2xpY2sgPSAoKSA9PiB7XG4gICAgc2V0SW5mb0Rpc3BsYXkoZmFsc2UpO1xuICB9O1xuXG4gIHJldHVybiAoXG4gICAgPGRpdlxuICAgICAgY3NzPXtjc3NgXG4gICAgICAgIGRpc3BsYXk6ICR7aW5mb0Rpc3BsYXkgPyBcImZsZXhcIiA6IFwibm9uZVwifTtcbiAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIHBhZGRpbmctdG9wOiAyMHB4O1xuICAgICAgICBwYWRkaW5nLWJvdHRvbTogMjBweDtcbiAgICAgICAgYm9yZGVyLXRvcDogMXB4IHNvbGlkICNlY2VjZWM7XG4gICAgICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjZWNlY2VjO1xuICAgICAgYH1cbiAgICA+XG4gICAgICA8ZGl2XG4gICAgICAgIGNzcz17Y3NzYFxuICAgICAgICAgIGZvbnQtZmFtaWx5OiBcIlVidW50dVwiLCBzYW5zLXNlcmlmO1xuICAgICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xuICAgICAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XG4gICAgICAgICAgZm9udC1zaXplOiAyOHB4O1xuICAgICAgICAgIGxpbmUtaGVpZ2h0OiAyNnB4O1xuICAgICAgICAgIHRleHQtYWxpZ246IGxlZnQ7XG4gICAgICAgICAgY29sb3I6ICMxZGFiZjI7XG4gICAgICAgICAgcGFkZGluZzogMjBweCAxMHB4O1xuICAgICAgICAgIGxldHRlci1zcGFjaW5nOiAwLjAyZW07XG4gICAgICAgIGB9XG4gICAgICA+XG4gICAgICAgIHtjaGlsZHJlbn1cbiAgICAgIDwvZGl2PlxuICAgICAgPGJ1dHRvblxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICBmb250LWZhbWlseTogXCJVYnVudHVcIiwgc2Fucy1zZXJpZjtcbiAgICAgICAgICBmb250LXN0eWxlOiBub3JtYWw7XG4gICAgICAgICAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgICAgICAgICBwYWRkaW5nOiAxMHB4IDIwcHg7XG4gICAgICAgICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgICAgICAgIGJvcmRlci13aWR0aDogMnB4O1xuICAgICAgICAgIGJvcmRlci1jb2xvcjogI2Y4NTkzYjtcbiAgICAgICAgICBib3JkZXItc3R5bGU6IHNvbGlkO1xuICAgICAgICAgIG91dGxpbmU6IG5vbmU7XG4gICAgICAgICAgY29sb3I6ICNmZmZmZmY7XG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2Y4NTkzYjtcbiAgICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICAgIGJvcmRlcjogMnB4IHNvbGlkICNmODU5M2I7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDAwMDtcbiAgICAgICAgICAgIGNvbG9yOiAjZjg1OTNiO1xuICAgICAgICAgIH1cbiAgICAgICAgYH1cbiAgICAgICAgb25DbGljaz17aGFuZGxlQ2xpY2t9XG4gICAgICA+XG4gICAgICAgIENsb3NlXG4gICAgICA8L2J1dHRvbj5cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IEluZm9Cb3g7XG4iXX0= */",
+          "name": "hrt02k-InfoBox",
+          "styles": "font-family:\\"Ubuntu\\",sans-serif;font-style:normal;margin-bottom:20px;font-weight:normal;font-size:28px;line-height:26px;text-align:left;color:#1dabf2;padding:20px 10px;letter-spacing:0.02em;label:InfoBox;",
+          "toString": [Function],
+        }
+      }
+    >
+      This page show a list of Pokemons' names and the owned total. Click on the list item to see Pokemon Detail.
+    </div>
     <button
       css={
         Object {
-          "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkluZm9Cb3guanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBd0JnQiIsImZpbGUiOiJJbmZvQm94LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3NzLCBqc3ggfSBmcm9tIFwiQGVtb3Rpb24vcmVhY3RcIjtcbmltcG9ydCB7IHVzZVN0YXRlIH0gZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IEluZm9Cb3ggPSAoeyBjaGlsZHJlbiB9KSA9PiB7XG4gIGNvbnN0IFtpbmZvRGlzcGxheSwgc2V0SW5mb0Rpc3BsYXldID0gdXNlU3RhdGUodHJ1ZSk7XG5cbiAgY29uc3QgaGFuZGxlQ2xpY2sgPSAoKSA9PiB7XG4gICAgc2V0SW5mb0Rpc3BsYXkoZmFsc2UpO1xuICB9O1xuXG4gIHJldHVybiAoXG4gICAgPGRpdlxuICAgICAgY3NzPXtjc3NgXG4gICAgICAgIGRpc3BsYXk6ICR7aW5mb0Rpc3BsYXkgPyBcImJsb2NrXCIgOiBcIm5vbmVcIn07XG4gICAgICAgIG1hcmdpbi10b3A6IDIwcHg7XG4gICAgICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XG4gICAgICAgIHBhZGRpbmctdG9wOiAyMHB4O1xuICAgICAgICBwYWRkaW5nLWJvdHRvbTogMjBweDtcbiAgICAgICAgYm9yZGVyLXRvcDogMXB4IHNvbGlkICNlY2VjZWM7XG4gICAgICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjZWNlY2VjO1xuICAgICAgYH1cbiAgICA+XG4gICAgICB7Y2hpbGRyZW59XG4gICAgICA8YnV0dG9uXG4gICAgICAgIGNzcz17Y3NzYFxuICAgICAgICAgIHBhZGRpbmc6IDEwcHggMjBweDtcbiAgICAgICAgICBib3JkZXItcmFkaXVzOiA1cHhcbiAgICAgICAgICBib3JkZXItY29sb3I6ICNmZmY7XG4gICAgICAgICAgb3V0bGluZTogbm9uZTtcbiAgICAgICAgYH1cbiAgICAgICAgb25DbGljaz17aGFuZGxlQ2xpY2t9XG4gICAgICA+XG4gICAgICAgIENsb3NlXG4gICAgICA8L2J1dHRvbj5cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IEluZm9Cb3g7XG4iXX0= */",
-          "name": "1ltt28h-InfoBox",
-          "styles": "padding:10px 20px;border-radius:5px border-color:#fff;outline:none;label:InfoBox;",
+          "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkluZm9Cb3guanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBd0NnQiIsImZpbGUiOiJJbmZvQm94LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3NzLCBqc3ggfSBmcm9tIFwiQGVtb3Rpb24vcmVhY3RcIjtcbmltcG9ydCB7IHVzZVN0YXRlIH0gZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IEluZm9Cb3ggPSAoeyBjaGlsZHJlbiB9KSA9PiB7XG4gIGNvbnN0IFtpbmZvRGlzcGxheSwgc2V0SW5mb0Rpc3BsYXldID0gdXNlU3RhdGUodHJ1ZSk7XG5cbiAgY29uc3QgaGFuZGxlQ2xpY2sgPSAoKSA9PiB7XG4gICAgc2V0SW5mb0Rpc3BsYXkoZmFsc2UpO1xuICB9O1xuXG4gIHJldHVybiAoXG4gICAgPGRpdlxuICAgICAgY3NzPXtjc3NgXG4gICAgICAgIGRpc3BsYXk6ICR7aW5mb0Rpc3BsYXkgPyBcImZsZXhcIiA6IFwibm9uZVwifTtcbiAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIHBhZGRpbmctdG9wOiAyMHB4O1xuICAgICAgICBwYWRkaW5nLWJvdHRvbTogMjBweDtcbiAgICAgICAgYm9yZGVyLXRvcDogMXB4IHNvbGlkICNlY2VjZWM7XG4gICAgICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjZWNlY2VjO1xuICAgICAgYH1cbiAgICA+XG4gICAgICA8ZGl2XG4gICAgICAgIGNzcz17Y3NzYFxuICAgICAgICAgIGZvbnQtZmFtaWx5OiBcIlVidW50dVwiLCBzYW5zLXNlcmlmO1xuICAgICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xuICAgICAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XG4gICAgICAgICAgZm9udC1zaXplOiAyOHB4O1xuICAgICAgICAgIGxpbmUtaGVpZ2h0OiAyNnB4O1xuICAgICAgICAgIHRleHQtYWxpZ246IGxlZnQ7XG4gICAgICAgICAgY29sb3I6ICMxZGFiZjI7XG4gICAgICAgICAgcGFkZGluZzogMjBweCAxMHB4O1xuICAgICAgICAgIGxldHRlci1zcGFjaW5nOiAwLjAyZW07XG4gICAgICAgIGB9XG4gICAgICA+XG4gICAgICAgIHtjaGlsZHJlbn1cbiAgICAgIDwvZGl2PlxuICAgICAgPGJ1dHRvblxuICAgICAgICBjc3M9e2Nzc2BcbiAgICAgICAgICBmb250LWZhbWlseTogXCJVYnVudHVcIiwgc2Fucy1zZXJpZjtcbiAgICAgICAgICBmb250LXN0eWxlOiBub3JtYWw7XG4gICAgICAgICAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgICAgICAgICBwYWRkaW5nOiAxMHB4IDIwcHg7XG4gICAgICAgICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgICAgICAgIGJvcmRlci13aWR0aDogMnB4O1xuICAgICAgICAgIGJvcmRlci1jb2xvcjogI2Y4NTkzYjtcbiAgICAgICAgICBib3JkZXItc3R5bGU6IHNvbGlkO1xuICAgICAgICAgIG91dGxpbmU6IG5vbmU7XG4gICAgICAgICAgY29sb3I6ICNmZmZmZmY7XG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2Y4NTkzYjtcbiAgICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICAgIGJvcmRlcjogMnB4IHNvbGlkICNmODU5M2I7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDAwMDtcbiAgICAgICAgICAgIGNvbG9yOiAjZjg1OTNiO1xuICAgICAgICAgIH1cbiAgICAgICAgYH1cbiAgICAgICAgb25DbGljaz17aGFuZGxlQ2xpY2t9XG4gICAgICA+XG4gICAgICAgIENsb3NlXG4gICAgICA8L2J1dHRvbj5cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IEluZm9Cb3g7XG4iXX0= */",
+          "name": "1hvn8dx-InfoBox",
+          "styles": "font-family:\\"Ubuntu\\",sans-serif;font-style:normal;font-weight:400;padding:10px 20px;border-radius:5px;border-width:2px;border-color:#f8593b;border-style:solid;outline:none;color:#ffffff;background-color:#f8593b;&:hover{border:2px solid #f8593b;background-color:#0000;color:#f8593b;};label:InfoBox;",
           "toString": [Function],
         }
       }

@@ -39,9 +39,9 @@ export default function ListCard({ name, image, nick }) {
       >
         <h3
           css={css`
-            font-family: sans-serif;
+            font-family: "Zen Kaku Gothic Antique", , sans-serif;
+            font-weight: 500;
             font-style: normal;
-            font-weight: normal;
             font-size: 24px;
             line-height: 25px;
             color: #081f32;
@@ -55,8 +55,9 @@ export default function ListCard({ name, image, nick }) {
         {nick && (
           <p
             css={css`
+              font-family: "Zen Kaku Gothic Antique", , sans-serif;
+              font-weight: 500;
               font-style: normal;
-              font-weight: 600;
               font-size: 20px;
               line-height: 15px;
               color: #6e798c;

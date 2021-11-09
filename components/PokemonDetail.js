@@ -63,7 +63,6 @@ export default function PokemonDetail({ name }) {
   };
 
   const { pokemon } = data;
-  console.log(data);
 
   return (
     <section>
