@@ -1,16 +1,22 @@
 import { useContext, useEffect, useState } from "react";
 import { MyPokeListContext } from "../components/App";
+import { css, jsx } from "@emotion/react";
 import ErrorMessage from "../components/ErrorMessage";
+import ListCard from "../components/ListCard";
 
 export default function MyPokemonList() {
   const { state, dispatcher } = useContext(MyPokeListContext);
+
   const [myList, setMyList] = useState(state);
+
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
     setMyList(state);
+    setIsMounted(true);
   }, [state]);
 
-  const myPokemons = myList !== null;
+  const myPokemons = myList !== null && isMounted;
 
   return (
     <section>
@@ -22,11 +28,19 @@ export default function MyPokemonList() {
           myList.map(({ id, image, name, date, nick }, index) => (
             <li key={index}>
               <div>
-                <span>{index + 1}. </span>
+                <ListCard image={image} name={name} nick={nick} />
+                <button
+                  css={css`
+                    padding: 10px 20px;
+                    border-radius: 5px
+                    border-color: #fff;
+                    outline: none;
+                  `}
+                  onClick={() => dispatcher.removePokemon(date)}
+                >
+                  Remove
+                </button>
               </div>
-              <button onClick={() => dispatcher.removePokemon(date)}>
-                Remove
-              </button>
             </li>
           ))}
       </ul>

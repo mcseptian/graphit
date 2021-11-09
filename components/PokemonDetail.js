@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { gql, useQuery } from "@apollo/client";
+import { css, jsx } from "@emotion/react";
 import ErrorMessage from "./ErrorMessage";
 import Submit from "./Submit";
+import DetailCard from "./DetailCard";
 
 export const POKE_QUERY = gql`
   query pokemon($name: String!) {
@@ -30,10 +32,12 @@ export const POKE_QUERY = gql`
 
 export default function PokemonDetail({ name }) {
   const [displayDetail, setDisplayDetail] = useState(false);
+  const [catchable, setCatchable] = useState(false);
 
   const pokemonsQueryVars = {
     name: name,
   };
+
   const { loading, error, data } = useQuery(POKE_QUERY, {
     variables: pokemonsQueryVars,
     // Setting this value to true will make the component rerender when
@@ -43,19 +47,36 @@ export default function PokemonDetail({ name }) {
   });
 
   if (error) return <ErrorMessage message="Error loading posts." />;
+
   if (loading) return <div>Loading</div>;
+
   const handleClick = () => {
-    setDisplayDetail(!displayDetail);
+    setCatchable(true);
+    if (catchable) {
+      setDisplayDetail(!displayDetail);
+      setCatchable(!catchable);
+    }
   };
+
   const { pokemon } = data;
+  console.log(data);
 
   return (
     <section>
       <div>
-        <span>{pokemon.url}</span>
-        <a href={pokemon.url}>{pokemon.name}</a>
+        <DetailCard pokemon={pokemon} />
       </div>
-      <button onClick={handleClick}>Catch</button>
+      <button
+        css={css`
+          padding: 10px 20px;
+          border-radius: 5px
+          border-color: #fff;
+          outline: none;
+          `}
+        onClick={handleClick}
+      >
+        Catch
+      </button>
       {displayDetail && <Submit pokemon={pokemon} />}
     </section>
   );

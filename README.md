@@ -24,15 +24,13 @@ yarn dev
 
 ```
 
-If you have trouble running dev server on windows, execute this command before running `yarn dev` or `npm run dev`
+If you have trouble running dev server on windows, execute this command below before running `yarn dev` or `npm run dev`
 
 ```sh
 // PS
-
 $env:NODE_ENV="production"
 
-// CMD
-
+// or CMD
 set NODE_ENV=production
 ```
 

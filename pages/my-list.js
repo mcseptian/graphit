@@ -14,7 +14,7 @@ const ClientOnlyPage = () => (
     <InfoBox>
       This page show a list of all Pokemons you have caught. You could also
       remove/release a Pokemon from the list. The pokemons in this list persist
-      even after a full page <a href="/client-only">reload</a> .
+      even after a full page <a href="/my-list">reload</a> .
     </InfoBox>
     <MyPokemonList />
   </App>

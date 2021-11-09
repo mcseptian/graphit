@@ -1,11 +1,13 @@
 import { css, jsx } from "@emotion/react";
 import { useState } from "react";
 
-const InfoBox = function ({ children }) {
+const InfoBox = ({ children }) => {
   const [infoDisplay, setInfoDisplay] = useState(true);
+
   const handleClick = () => {
     setInfoDisplay(false);
   };
+
   return (
     <div
       css={css`
@@ -19,7 +21,17 @@ const InfoBox = function ({ children }) {
       `}
     >
       {children}
-      <button onClick={handleClick}>Close</button>
+      <button
+        css={css`
+          padding: 10px 20px;
+          border-radius: 5px
+          border-color: #fff;
+          outline: none;
+        `}
+        onClick={handleClick}
+      >
+        Close
+      </button>
     </div>
   );
 };

@@ -4,11 +4,14 @@ import Header from "../components/Header";
 import PokemonDetail, { POKE_QUERY } from "../components/PokemonDetail";
 import Head from "next/head";
 import { initializeApollo, addApolloState } from "../lib/apolloClient";
-import router, { useRouter } from "next/router";
+import { useRouter } from "next/router";
 
-const pokemonQueryVar = router.query.pokename;
+// TODO: dummy vars
+const pokemonQueryVar = {
+  name: "bulbasaur",
+};
 
-const SSRPage = function () {
+const DETAILPage = function () {
   const { query } = useRouter();
   return (
     <App>
@@ -41,4 +44,4 @@ export async function getServerSideProps() {
   });
 }
 
-export default SSRPage;
+export default DETAILPage;

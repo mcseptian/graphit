@@ -1,7 +1,11 @@
-import { useEffect } from "react";
+import { useContext, useState, useEffect } from "react";
+import { MyPokeListContext } from "../components/App";
 import { gql, useQuery, NetworkStatus } from "@apollo/client";
-import ErrorMessage from "./ErrorMessage";
 import { useRouter } from "next/router";
+import { css, jsx } from "@emotion/react";
+import ErrorMessage from "./ErrorMessage";
+import InfoBox from "./InfoBox";
+import ListCard from "./ListCard";
 
 export const ALL_POKE_QUERY = gql`
   query pokemons($limit: Int, $offset: Int) {
@@ -21,12 +25,23 @@ export const ALL_POKE_QUERY = gql`
 `;
 
 export const pokemonsQueryVars = {
-  limit: 2,
+  limit: 20,
   offset: 0,
 };
 
 export default function PokemonList() {
   const router = useRouter();
+
+  const { state } = useContext(MyPokeListContext);
+
+  const [myList, setMyList] = useState(state);
+
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setMyList(state);
+    setIsMounted(true);
+  }, [state]);
 
   const { loading, error, data, fetchMore, networkStatus } = useQuery(
     ALL_POKE_QUERY,
@@ -52,11 +67,13 @@ export default function PokemonList() {
   const loadMorePosts = () => {
     fetchMore({
       variables: {
-        limit: 2,
+        limit: 20,
         offset: pokemons.results.length,
       },
     });
   };
+
+  const listLength = myList && myList.length;
 
   return (
     <section>
@@ -66,19 +83,34 @@ export default function PokemonList() {
             <div
               onClick={() =>
                 router.push({
-                  pathname: "/ssr/",
+                  pathname: "/detail/",
                   query: { pokename: name },
                 })
               }
             >
-              <span>{index + 1}. </span>
-              <span>{name}</span>
+              <ListCard image={image} name={name} />
             </div>
           </li>
         ))}
       </ul>
+      {isMounted && (
+        <InfoBox>
+          You have{" "}
+          {listLength > 1 ? `${listLength} pokemons` : `${listLength} pokemon`}
+          on your list.
+        </InfoBox>
+      )}
       {areMorePosts && (
-        <button onClick={loadMorePosts} disabled={loadingMorePosts}>
+        <button
+          css={css`
+            padding: 10px 20px;
+            border-radius: 5px
+            border-color: #fff;
+            outline: none;
+            `}
+          onClick={loadMorePosts}
+          disabled={loadingMorePosts}
+        >
           {loadingMorePosts ? "Loading..." : "Show More"}
         </button>
       )}

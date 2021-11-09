@@ -26,7 +26,7 @@ export default function Submit({ pokemon }) {
   const handleSubmit = (event) => {
     event.preventDefault();
     const nick = value;
-    let pass = !state;
+    let pass = state === null;
     if (pass) {
       dispatcher.catchPokemon(id, sprites.front_default, name, nick);
       setIsSuccess(true);
@@ -67,7 +67,16 @@ export default function Submit({ pokemon }) {
         value={value}
         required
       />
-      <button type="submit" disabled={loading}>
+      <button
+        css={css`
+          padding: 10px 20px;
+          border-radius: 5px
+          border-color: #fff;
+          outline: none;
+        `}
+        type="submit"
+        disabled={loading}
+      >
         Submit
       </button>
 
@@ -78,8 +87,8 @@ export default function Submit({ pokemon }) {
       {isSuccess && (
         <InfoBox>
           Yeay, you have your own pokemon. Let's check them on your list.
-          <Link href="/client-only">
-            <a>SSR</a>
+          <Link href="/my-list">
+            <a>DETAIL</a>
           </Link>
         </InfoBox>
       )}

@@ -24,10 +24,8 @@ export default function Header() {
       <Link href="/">
         <a className={pathname === "/" ? "is-active" : ""}>Home</a>
       </Link>
-      <Link href="/client-only">
-        <a className={pathname === "/client-only" ? "is-active" : ""}>
-          Client-Only
-        </a>
+      <Link href="/my-list">
+        <a className={pathname === "/my-list" ? "is-active" : ""}>My-List</a>
       </Link>
     </header>
   );
