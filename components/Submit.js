@@ -93,6 +93,11 @@ export default function Submit({ pokemon, onChange }) {
         </h1>
         <input
           css={css`
+            font-family: "Zen Kaku Gothic Antique", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 20px;
+            line-height: 1.25;
             padding: 10px 20px;
             outline: none;
             border-radius: 5px;
@@ -100,7 +105,9 @@ export default function Submit({ pokemon, onChange }) {
             border-width: 2px;
             border-style: solid;
             border-color: #007ae9;
-            min-width: 200px;
+            min-width: 200 px;
+            max-width: 300 px;
+            width: 100%;
           `}
           placeholder="nickname"
           name="nickname"
