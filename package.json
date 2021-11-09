@@ -2,7 +2,7 @@
   "name": "basic-react",
   "version": "1.0.0",
   "private": true,
-  "license": "ISC",
+  "license": "LICENSE",
   "repository": {
     "type": "git", 
     "url": "https://github.com/mcseptian/graphit.git"
