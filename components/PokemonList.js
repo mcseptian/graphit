@@ -132,16 +132,17 @@ export default function PokemonList() {
       {areMorePosts && (
         <button
           css={css`
-            font-family: "Ubuntu", sans-serif;
-            font-style: normal;
             padding: 10px 20px;
-            border-radius: 5px;
-            border-color: #fff;
-            border-style: solid;
             outline: none;
             margin: 20px auto;
-            display: block;
             margin: 20px auto;
+            font-style: normal;
+            font-family: "Ubuntu", sans-serif;
+            display: block;
+            cursor: pointer;
+            border-style: solid;
+            border-radius: 5px;
+            border-color: #fff;
           `}
           onClick={loadMorePosts}
           disabled={loadingMorePosts}

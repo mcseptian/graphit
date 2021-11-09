@@ -8,16 +8,16 @@ export default function Header() {
   return (
     <header
       css={css`
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        padding: 25px;
-        position: sticky;
-        top: 0;
-        left: 0;
-        right: 0;
-        background: #fff;
         z-index: 10;
+        top: 0;
+        right: 0;
+        position: sticky;
+        padding: 25px;
+        left: 0;
+        justify-content: space-around;
+        display: flex;
+        background: #fff;
+        align-items: center;
       `}
     >
       <Link href="/">

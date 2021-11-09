@@ -63,36 +63,37 @@ export default function MyPokemonList() {
                 <ListCard image={image} name={name} nick={nick} />
                 <button
                   css={css`
-                    border-radius: 5px;
-                    border-width: 2px;
-                    border-color: #fff;
-                    border-style: solid;
-                    color: #f8593b;
-                    outline: none;
-                    background-color: #fff;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    text-align: center;
-                    flex-wrap: wrap-reverse;
                     width: 100%;
+                    text-align: center;
+                    outline: none;
+                    justify-content: center;
+                    flex-wrap: wrap-reverse;
+                    display: flex;
+                    cursor: pointer;
+                    color: #f8593b;
+                    border-width: 2px;
+                    border-style: solid;
+                    border-radius: 5px;
+                    border-color: #fff;
+                    background-color: #fff;
+                    align-items: center;
                     &:hover {
+                      color: #fff;
                       border: 2px solid #f8593b;
                       background-color: #f8593b;
-                      color: #fff;
                     }
                   `}
                   onClick={() => dispatcher.removePokemon(date)}
                 >
                   <span
                     css={css`
-                      font-size: 24px;
-                      line-height: 1;
-                      display: inline-block;
                       vertical-align: middle;
-                      color: currentColor;
-                      margin-right: 20px;
                       padding: 10px;
+                      margin-right: 20px;
+                      line-height: 1;
+                      font-size: 24px;
+                      display: inline-block;
+                      color: currentColor;
                     `}
                   >
                     Remove this Pokemon

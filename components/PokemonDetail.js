@@ -89,21 +89,22 @@ export default function PokemonDetail({ name }) {
       >
         <button
           css={css`
-            font-family: "Ubuntu", sans-serif;
-            font-style: normal;
-            font-weight: normal;
             padding: 10px 20px;
-            border-radius: 5px;
-            border-width: 2px;
-            border-color: #f8593b;
-            border-style: solid;
             outline: none;
+            font-weight: normal;
+            font-style: normal;
+            font-family: "Ubuntu", sans-serif;
+            cursor: pointer;
             color: #ffffff;
+            border-width: 2px;
+            border-style: solid;
+            border-radius: 5px;
+            border-color: #f8593b;
             background-color: #f8593b;
             &:hover {
+              color: #f8593b;
               border: 2px solid #f8593b;
               background-color: #0000;
-              color: #f8593b;
             }
           `}
           onClick={handleClick}

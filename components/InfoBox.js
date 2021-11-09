@@ -11,49 +11,50 @@ const InfoBox = ({ children }) => {
   return (
     <div
       css={css`
-        display: ${infoDisplay ? "flex" : "none"};
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         padding-top: 20px;
         padding-bottom: 20px;
+        justify-content: center;
+        flex-direction: column;
+        display: ${infoDisplay ? "flex" : "none"};
         border-top: 1px solid #ececec;
         border-bottom: 1px solid #ececec;
+        align-items: center;
       `}
     >
       <div
         css={css`
-          font-family: "Ubuntu", sans-serif;
-          font-style: normal;
-          margin-bottom: 20px;
-          font-weight: normal;
-          font-size: 28px;
-          line-height: 26px;
           text-align: left;
-          color: #1dabf2;
           padding: 20px 10px;
+          margin-bottom: 20px;
+          line-height: 26px;
           letter-spacing: 0.02em;
+          font-weight: normal;
+          font-style: normal;
+          font-size: 28px;
+          font-family: "Ubuntu", sans-serif;
+          color: #1dabf2;
         `}
       >
         {children}
       </div>
       <button
         css={css`
-          font-family: "Ubuntu", sans-serif;
-          font-style: normal;
-          font-weight: normal;
           padding: 10px 20px;
-          border-radius: 5px;
-          border-width: 2px;
-          border-color: #f8593b;
-          border-style: solid;
           outline: none;
+          font-weight: normal;
+          font-style: normal;
+          font-family: "Ubuntu", sans-serif;
+          cursor: pointer;
           color: #ffffff;
+          border-width: 2px;
+          border-style: solid;
+          border-radius: 5px;
+          border-color: #f8593b;
           background-color: #f8593b;
           &:hover {
+            color: #f8593b;
             border: 2px solid #f8593b;
             background-color: #0000;
-            color: #f8593b;
           }
         `}
         onClick={handleClick}

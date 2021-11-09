@@ -9,23 +9,23 @@ export default function DetailCard(props) {
         key={index}
         css={css`
           text-transform: uppercase;
-          font-family: "Zen Kaku Gothic Antique", sans-serif;
+          padding: 10px;
+          margin: 5px;
+          line-height: 1;
           font-weight: 500;
           font-style: normal;
           font-size: 16px;
-          line-height: 1;
+          font-family: "Zen Kaku Gothic Antique", sans-serif;
           display: inline-block;
           color: #6e798c;
-          padding: 10px;
-          border-radius: 5px;
           border-width: 2px;
-          border-color: #ddd;
           border-style: solid;
-          margin: 5px;
+          border-radius: 5px;
+          border-color: #ddd;
           &:hover {
             color: #fff;
-            background-color: #6e798c;
             border-color: #6e798c;
+            background-color: #6e798c;
           }
         `}
       >
@@ -35,19 +35,19 @@ export default function DetailCard(props) {
     return (
       <ul
         css={css`
-          display: block;
           width: 100%;
           height: auto;
+          display: block;
         `}
       >
         <h2
           css={css`
-            font-family: "Zen Kaku Gothic Antique", sans-serif;
+            margin-top: 0;
+            margin-bottom: 20px;
             font-weight: 500;
             font-style: normal;
             font-size: 20px;
-            margin-bottom: 20px;
-            margin-top: 0;
+            font-family: "Zen Kaku Gothic Antique", sans-serif;
           `}
         >
           Type:{" "}
@@ -62,23 +62,23 @@ export default function DetailCard(props) {
         key={index}
         css={css`
           text-transform: uppercase;
-          font-family: "Zen Kaku Gothic Antique", sans-serif;
+          padding: 10px;
+          margin: 5px;
+          line-height: 15px;
           font-weight: 500;
           font-style: normal;
           font-size: 11px;
-          line-height: 15px;
+          font-family: "Zen Kaku Gothic Antique", sans-serif;
           display: inline-block;
           color: #6e798c;
-          padding: 10px;
-          border-radius: 5px;
           border-width: 2px;
-          border-color: #ddd;
           border-style: solid;
-          margin: 5px;
+          border-radius: 5px;
+          border-color: #ddd;
           &:hover {
             color: #fff;
-            background-color: #6e798c;
             border-color: #6e798c;
+            background-color: #6e798c;
           }
         `}
       >
@@ -88,19 +88,19 @@ export default function DetailCard(props) {
     return (
       <ul
         css={css`
-          display: block;
           width: 100%;
           height: auto;
+          display: block;
         `}
       >
         <h2
           css={css`
-            font-family: "Zen Kaku Gothic Antique", sans-serif;
+            margin-top: 0;
+            margin-bottom: 20px;
             font-weight: 500;
             font-style: normal;
             font-size: 20px;
-            margin-bottom: 20px;
-            margin-top: 0;
+            font-family: "Zen Kaku Gothic Antique", sans-serif;
           `}
         >
           Move:{" "}
@@ -112,57 +112,57 @@ export default function DetailCard(props) {
   return (
     <div
       css={css`
-        display: flex;
-        flex-basis: 100%;
-        flex-direction: column;
-        flex-wrap: wrap;
         justify-content: space-between;
-        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        flex-basis: 100%;
         filter: drop-shadow(0px 24px 64px rgba(0, 0, 0, 0.04));
+        display: flex;
+        align-items: center;
       `}
     >
       <Image src={sprites.front_default} alt="name" width={300} height={300} />
       <div
         css={css`
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
           padding: 30px;
+          justify-content: center;
+          flex-direction: column;
+          display: flex;
           background-color: #ffffff;
+          align-items: center;
         `}
       >
         <div
           css={css`
-            display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
           `}
         >
           <h2
             css={css`
-              font-family: "Zen Kaku Gothic Antique", sans-serif;
+              margin-top: 0;
+              margin-bottom: 20px;
               font-weight: 500;
               font-style: normal;
               font-size: 20px;
-              margin-bottom: 20px;
-              margin-top: 0;
+              font-family: "Zen Kaku Gothic Antique", sans-serif;
             `}
           >
             Name:{" "}
           </h2>
           <h3
             css={css`
-              font-family: "Ubuntu", sans-serif;
-              font-style: normal;
-              font-weight: normal;
-              font-size: 20px;
-              line-height: 25px;
-              color: #081f32;
-              margin-bottom: 15px;
-              margin-top: 0;
               text-transform: capitalize;
+              margin-top: 0;
+              margin-bottom: 15px;
+              line-height: 25px;
+              font-weight: normal;
+              font-style: normal;
+              font-size: 20px;
+              font-family: "Ubuntu", sans-serif;
+              color: #081f32;
             `}
           >
             {name}

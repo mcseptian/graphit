@@ -5,11 +5,12 @@ export default function ListCard({ name, image, nick }) {
   return (
     <div
       css={css`
-        display: flex;
-        flex-basis: 200px;
-        flex-direction: row;
-        flex-wrap: wrap;
         justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex-basis: 200px;
+        display: flex;
+        cursor: pointer;
         align-items: center;
       `}
     >
@@ -28,25 +29,25 @@ export default function ListCard({ name, image, nick }) {
       </div>
       <div
         css={css`
-          display: flex;
-          flex-direction: column;
-          align-items: center;
+          padding: 30px;
           justify-content: center;
           flex-grow: 2;
-          padding: 30px;
+          flex-direction: column;
+          display: flex;
           background-color: #0000;
+          align-items: center;
         `}
       >
         <h3
           css={css`
-            font-family: "Zen Kaku Gothic Antique", sans-serif;
+            width: 100%;
+            line-height: 25px;
             font-weight: 500;
             font-style: normal;
             font-size: 24px;
-            line-height: 25px;
-            color: #081f32;
+            font-family: "Zen Kaku Gothic Antique", sans-serif;
             display: inline-block;
-            width: 100%;
+            color: #081f32;
           `}
         >
           Name: {name}
@@ -55,14 +56,14 @@ export default function ListCard({ name, image, nick }) {
         {nick && (
           <p
             css={css`
-              font-family: "Zen Kaku Gothic Antique", sans-serif;
+              width: 100%;
+              line-height: 15px;
               font-weight: 500;
               font-style: normal;
               font-size: 20px;
-              line-height: 15px;
-              color: #6e798c;
+              font-family: "Zen Kaku Gothic Antique", sans-serif;
               display: inline-block;
-              width: 100%;
+              color: #6e798c;
             `}
           >
             Nickname: {nick}

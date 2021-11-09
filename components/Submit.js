@@ -135,6 +135,7 @@ export default function Submit({ pokemon, onChange }) {
               border-color: #2ecc71;
               border-style: solid;
               color: #fff;
+              cursor: pointer;
               outline: none;
               background-color: #2ecc71;
               &:hover {
@@ -150,25 +151,26 @@ export default function Submit({ pokemon, onChange }) {
           </button>
           <button
             css={css`
-              position: absolute;
+              width: 34px;
               top: 5px;
               right: 5px;
-              border-radius: 50%;
-              border-width: 2px;
-              border-color: #fff;
-              border-style: solid;
-              color: #f8593b;
+              position: absolute;
               outline: none;
-              background-color: #fff;
-              width: 34px;
+              justify-content: center;
               height: 34px;
               display: flex;
+              cursor: pointer;
+              color: #f8593b;
+              border-width: 2px;
+              border-style: solid;
+              border-radius: 50%;
+              border-color: #fff;
+              background-color: #fff;
               align-items: center;
-              justify-content: center;
               &:hover {
+                color: #fff;
                 border: 2px solid #f8593b;
                 background-color: #f8593b;
-                color: #fff;
               }
             `}
             type="reset"
