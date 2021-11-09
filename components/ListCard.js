@@ -34,7 +34,7 @@ export default function ListCard({ name, image, nick }) {
           justify-content: center;
           flex-grow: 2;
           padding: 30px;
-          background-color: #ffffff;
+          background-color: #0000;
         `}
       >
         <h3

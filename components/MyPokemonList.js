@@ -38,7 +38,7 @@ export default function MyPokemonList() {
             <li
               css={css`
                 min-height: 184px;
-                min-width: 300px;
+                min-width: 250px;
                 max-width: 660px;
                 margin: 40px auto;
               `}

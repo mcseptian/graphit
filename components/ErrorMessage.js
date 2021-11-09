@@ -4,10 +4,20 @@ export default function ErrorMessage({ message }) {
   return (
     <div
       css={css`
-        padding: 1.5em;
-        font-size: 14px;
-        color: white;
-        background-color: red;
+        margin-top: 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border-width: 2px;
+        border-color: #f8593b;
+        border-style: solid;
+        outline: none;
+        color: #ffffff;
+        background-color: #f8593b;
+        &:hover {
+          border: 2px solid #f8593b;
+          background-color: #0000;
+          color: #f8593b;
+        }
       `}
     >
       {message}

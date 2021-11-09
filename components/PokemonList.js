@@ -94,13 +94,20 @@ export default function PokemonList() {
         {pokemons.results.map(({ id, image, name }, index) => (
           <li
             css={css`
-              border-radius: 10px;
-              max-height: 184px;
+              min-height: 184px;
+              min-width: 250px;
               max-width: 660px;
+              margin: 40px auto;
+              width: 100%;
             `}
             key={index}
           >
             <div
+              css={css`
+                border-radius: 20px;
+                background: linear-gradient(145deg, #e6e6e6, #ffffff);
+                box-shadow: 15px 15px 30px #d9d9d9, -15px -15px 30px #ffffff;
+              `}
               onClick={() =>
                 router.push({
                   pathname: "/detail/",

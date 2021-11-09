@@ -67,7 +67,9 @@ export default function Submit({ pokemon, onChange }) {
           position: relative;
           padding: 20px;
           margin-bottom: 20px;
-          max-width: 300px;
+          min-width: 250px;
+          width: fit-content;
+          max-width: 660px;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -95,6 +97,7 @@ export default function Submit({ pokemon, onChange }) {
             border-width: 2px;
             border-style: solid;
             border-color: #007ae9;
+            min-width: 200px;
           `}
           placeholder="nickname"
           name="nickname"
@@ -178,10 +181,8 @@ export default function Submit({ pokemon, onChange }) {
 
         {isSuccess && (
           <InfoBox>
-            Yeay, you have your own pokemon. Let's check them on your list.
-            <Link href="/my-list">
-              <a>DETAIL</a>
-            </Link>
+            Yeay, you have your own pokemon. <br />
+            Let's check them on your <Link href="/my-list">list</Link>.
           </InfoBox>
         )}
       </form>
