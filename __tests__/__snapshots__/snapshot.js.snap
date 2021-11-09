@@ -1,20 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders homepage unchanged 1`] = `
-<main
-  css={
-    Object {
-      "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFLYyIsImZpbGUiOiJBcHAuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBjc3MsIGpzeCB9IGZyb20gJ0BlbW90aW9uL3JlYWN0J1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBBcHAoeyBjaGlsZHJlbiB9KSB7XG4gIHJldHVybiAoXG4gICAgPG1haW5cbiAgICAgIGNzcz17Y3NzYFxuICAgICAgICAqIHtcbiAgICAgICAgICBmb250LWZhbWlseTogTWVubG8sIE1vbmFjbywgJ0x1Y2lkYSBDb25zb2xlJywgJ0xpYmVyYXRpb24gTW9ubycsXG4gICAgICAgICAgICAnRGVqYVZ1IFNhbnMgTW9ubycsICdCaXRzdHJlYW0gVmVyYSBTYW5zIE1vbm8nLCAnQ291cmllciBOZXcnLFxuICAgICAgICAgICAgbW9ub3NwYWNlLCBzZXJpZjtcbiAgICAgICAgfVxuICAgICAgICBib2R5IHtcbiAgICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgICAgcGFkZGluZzogMjVweCA1MHB4O1xuICAgICAgICB9XG4gICAgICAgIGEge1xuICAgICAgICAgIGNvbG9yOiAjMjJiYWQ5O1xuICAgICAgICB9XG4gICAgICAgIHAge1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgICBsaW5lLWhlaWdodDogMjRweDtcbiAgICAgICAgfVxuICAgICAgICBhcnRpY2xlIHtcbiAgICAgICAgICBtYXJnaW46IDAgYXV0bztcbiAgICAgICAgICBtYXgtd2lkdGg6IDY1MHB4O1xuICAgICAgICB9XG4gICAgICAgIGJ1dHRvbiB7XG4gICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjJiYWQ5O1xuICAgICAgICAgIGJvcmRlcjogMDtcbiAgICAgICAgICBjb2xvcjogd2hpdGU7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICBwYWRkaW5nOiA1cHggN3B4O1xuICAgICAgICAgIHRyYW5zaXRpb246IGJhY2tncm91bmQtY29sb3IgMC4zcztcbiAgICAgICAgfVxuICAgICAgICBidXR0b246YWN0aXZlIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMWI5ZGI3O1xuICAgICAgICB9XG4gICAgICAgIGJ1dHRvbjpkaXNhYmxlZCB7XG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2I1YmViZjtcbiAgICAgICAgfVxuICAgICAgICBidXR0b246Zm9jdXMge1xuICAgICAgICAgIG91dGxpbmU6IG5vbmU7XG4gICAgICAgIH1cbiAgICAgIGB9PlxuICAgICAge2NoaWxkcmVufVxuICAgIDwvbWFpbj5cbiAgKVxufVxuIl19 */",
-      "name": "m44uo-App",
-      "styles": "*{font-family:Menlo,Monaco,'Lucida Console','Liberation Mono','DejaVu Sans Mono','Bitstream Vera Sans Mono','Courier New',monospace,serif;}body{margin:0;padding:25px 50px;}a{color:#22bad9;}p{font-size:14px;line-height:24px;}article{margin:0 auto;max-width:650px;}button{align-items:center;background-color:#22bad9;border:0;color:white;display:flex;padding:5px 7px;transition:background-color 0.3s;}button:active{background-color:#1b9db7;}button:disabled{background-color:#b5bebf;}button:focus{outline:none;};label:App;",
-      "toString": [Function],
-    }
-  }
->
+Array [
   <header
     css={
       Object {
-        "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkhlYWRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFRb0IiLCJmaWxlIjoiSGVhZGVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSAnbmV4dC9yb3V0ZXInXG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXG5pbXBvcnQgeyBjc3MsIGpzeCB9IGZyb20gJ0BlbW90aW9uL3JlYWN0J1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBIZWFkZXIoKSB7XG4gIGNvbnN0IHsgcGF0aG5hbWUgfSA9IHVzZVJvdXRlcigpXG5cbiAgcmV0dXJuIChcbiAgICA8aGVhZGVyIGNzcz17Y3NzYFxuICAgICAgaGVhZGVyIHtcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMjVweDtcbiAgICAgIH1cbiAgICAgIGEge1xuICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIG1hcmdpbi1yaWdodDogMTVweDtcbiAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgfVxuICAgICAgLmlzLWFjdGl2ZSB7XG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xuICAgICAgfVxuICAgIGB9PlxuICAgICAgPExpbmsgaHJlZj1cIi9cIj5cbiAgICAgICAgPGEgY2xhc3NOYW1lPXtwYXRobmFtZSA9PT0gJy8nID8gJ2lzLWFjdGl2ZScgOiAnJ30+SG9tZTwvYT5cbiAgICAgIDwvTGluaz5cbiAgICAgIDxMaW5rIGhyZWY9XCIvYWJvdXRcIj5cbiAgICAgICAgPGEgY2xhc3NOYW1lPXtwYXRobmFtZSA9PT0gJy9hYm91dCcgPyAnaXMtYWN0aXZlJyA6ICcnfT5BYm91dDwvYT5cbiAgICAgIDwvTGluaz5cbiAgICAgIDxMaW5rIGhyZWY9XCIvY2xpZW50LW9ubHlcIj5cbiAgICAgICAgPGEgY2xhc3NOYW1lPXtwYXRobmFtZSA9PT0gJy9jbGllbnQtb25seScgPyAnaXMtYWN0aXZlJyA6ICcnfT5cbiAgICAgICAgICBDbGllbnQtT25seVxuICAgICAgICA8L2E+XG4gICAgICA8L0xpbms+XG4gICAgICA8TGluayBocmVmPVwiL3NzclwiPlxuICAgICAgICA8YSBjbGFzc05hbWU9e3BhdGhuYW1lID09PSAnL3NzcicgPyAnaXMtYWN0aXZlJyA6ICcnfT5TU1I8L2E+XG4gICAgICA8L0xpbms+XG4gICAgPC9oZWFkZXI+XG4gIClcbn1cbiJdfQ== */",
+        "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkhlYWRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFTYyIsImZpbGUiOiJIZWFkZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tIFwibmV4dC9yb3V0ZXJcIjtcbmltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjtcbmltcG9ydCB7IGNzcywganN4IH0gZnJvbSBcIkBlbW90aW9uL3JlYWN0XCI7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhlYWRlcigpIHtcbiAgY29uc3QgeyBwYXRobmFtZSB9ID0gdXNlUm91dGVyKCk7XG5cbiAgcmV0dXJuIChcbiAgICA8aGVhZGVyXG4gICAgICBjc3M9e2Nzc2BcbiAgICAgICAgaGVhZGVyIHtcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAyNXB4O1xuICAgICAgICB9XG4gICAgICAgIGEge1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgICBtYXJnaW4tcmlnaHQ6IDE1cHg7XG4gICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICB9XG4gICAgICAgIC5pcy1hY3RpdmUge1xuICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xuICAgICAgICB9XG4gICAgICBgfVxuICAgID5cbiAgICAgIDxMaW5rIGhyZWY9XCIvXCI+XG4gICAgICAgIDxhIGNsYXNzTmFtZT17cGF0aG5hbWUgPT09IFwiL1wiID8gXCJpcy1hY3RpdmVcIiA6IFwiXCJ9PkhvbWU8L2E+XG4gICAgICA8L0xpbms+XG4gICAgICA8TGluayBocmVmPVwiL2NsaWVudC1vbmx5XCI+XG4gICAgICAgIDxhIGNsYXNzTmFtZT17cGF0aG5hbWUgPT09IFwiL2NsaWVudC1vbmx5XCIgPyBcImlzLWFjdGl2ZVwiIDogXCJcIn0+XG4gICAgICAgICAgQ2xpZW50LU9ubHlcbiAgICAgICAgPC9hPlxuICAgICAgPC9MaW5rPlxuICAgIDwvaGVhZGVyPlxuICApO1xufVxuIl19 */",
         "name": "4cajdb-Header",
         "styles": "header{margin-bottom:25px;}a{font-size:14px;margin-right:15px;text-decoration:none;}.is-active{text-decoration:underline;};label:Header;",
         "toString": [Function],
@@ -30,14 +21,6 @@ exports[`renders homepage unchanged 1`] = `
       Home
     </a>
     <a
-      className=""
-      href="/about"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-    >
-      About
-    </a>
-    <a
       className="is-active"
       href="/client-only"
       onClick={[Function]}
@@ -45,73 +28,27 @@ exports[`renders homepage unchanged 1`] = `
     >
       Client-Only
     </a>
-    <a
-      className=""
-      href="/ssr"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-    >
-      SSR
-    </a>
-  </header>
+  </header>,
   <div
     css={
       Object {
-        "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkluZm9Cb3guanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBR2UiLCJmaWxlIjoiSW5mb0JveC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGNzcywganN4IH0gZnJvbSAnQGVtb3Rpb24vcmVhY3QnXG5cbmNvbnN0IEluZm9Cb3ggPSAoeyBjaGlsZHJlbiB9KSA9PiAoXG4gIDxkaXYgY3NzPXtjc3NgXG4gICAgICBtYXJnaW4tdG9wOiAyMHB4O1xuICAgICAgbWFyZ2luLWJvdHRvbTogMjBweDtcbiAgICAgIHBhZGRpbmctdG9wOiAyMHB4O1xuICAgICAgcGFkZGluZy1ib3R0b206IDIwcHg7XG4gICAgICBib3JkZXItdG9wOiAxcHggc29saWQgI2VjZWNlYztcbiAgICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjZWNlY2VjO1xuICAgIGB9PlxuICAgIHtjaGlsZHJlbn1cbiAgPC9kaXY+XG4pXG5cbmV4cG9ydCBkZWZhdWx0IEluZm9Cb3hcbiJdfQ== */",
-        "name": "1rn6u9j-InfoBox",
-        "styles": "margin-top:20px;margin-bottom:20px;padding-top:20px;padding-bottom:20px;border-top:1px solid #ececec;border-bottom:1px solid #ececec;label:InfoBox;",
+        "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkluZm9Cb3guanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVWMiLCJmaWxlIjoiSW5mb0JveC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGNzcywganN4IH0gZnJvbSBcIkBlbW90aW9uL3JlYWN0XCI7XG5pbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBJbmZvQm94ID0gZnVuY3Rpb24gKHsgY2hpbGRyZW4gfSkge1xuICBjb25zdCBbaW5mb0Rpc3BsYXksIHNldEluZm9EaXNwbGF5XSA9IHVzZVN0YXRlKHRydWUpO1xuICBjb25zdCBoYW5kbGVDbGljayA9ICgpID0+IHtcbiAgICBzZXRJbmZvRGlzcGxheShmYWxzZSk7XG4gIH07XG4gIHJldHVybiAoXG4gICAgPGRpdlxuICAgICAgY3NzPXtjc3NgXG4gICAgICAgIGRpc3BsYXk6ICR7aW5mb0Rpc3BsYXkgPyBcImJsb2NrXCIgOiBcIm5vbmVcIn07XG4gICAgICAgIG1hcmdpbi10b3A6IDIwcHg7XG4gICAgICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XG4gICAgICAgIHBhZGRpbmctdG9wOiAyMHB4O1xuICAgICAgICBwYWRkaW5nLWJvdHRvbTogMjBweDtcbiAgICAgICAgYm9yZGVyLXRvcDogMXB4IHNvbGlkICNlY2VjZWM7XG4gICAgICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjZWNlY2VjO1xuICAgICAgYH1cbiAgICA+XG4gICAgICB7Y2hpbGRyZW59XG4gICAgICA8YnV0dG9uIG9uQ2xpY2s9e2hhbmRsZUNsaWNrfT5DbG9zZTwvYnV0dG9uPlxuICAgIDwvZGl2PlxuICApO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgSW5mb0JveDtcbiJdfQ== */",
+        "name": "k37fz5-InfoBox",
+        "next": undefined,
+        "styles": "display:block;margin-top:20px;margin-bottom:20px;padding-top:20px;padding-bottom:20px;border-top:1px solid #ececec;border-bottom:1px solid #ececec;;label:InfoBox;",
         "toString": [Function],
       }
     }
   >
-    ℹ️ This page shows how to use SSG with Apollo.
-  </div>
-  <form
-    css={
-      Object {
-        "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlN1Ym1pdC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF1RDBDIiwiZmlsZSI6IlN1Ym1pdC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGdxbCwgdXNlTXV0YXRpb24gfSBmcm9tICdAYXBvbGxvL2NsaWVudCdcbmltcG9ydCBzdHlsZWQgZnJvbSAnQGVtb3Rpb24vc3R5bGVkJ1xuaW1wb3J0IHsgY3NzLCBqc3ggfSBmcm9tICdAZW1vdGlvbi9yZWFjdCdcblxuY29uc3QgQ1JFQVRFX1BPU1RfTVVUQVRJT04gPSBncWxgXG4gIG11dGF0aW9uIGNyZWF0ZVBvc3QoJHRpdGxlOiBTdHJpbmchLCAkdXJsOiBTdHJpbmchKSB7XG4gICAgY3JlYXRlUG9zdCh0aXRsZTogJHRpdGxlLCB1cmw6ICR1cmwpIHtcbiAgICAgIGlkXG4gICAgICB0aXRsZVxuICAgICAgdm90ZXNcbiAgICAgIHVybFxuICAgICAgY3JlYXRlZEF0XG4gICAgfVxuICB9XG5gXG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFN1Ym1pdCgpIHtcbiAgY29uc3QgW2NyZWF0ZVBvc3QsIHsgbG9hZGluZyB9XSA9IHVzZU11dGF0aW9uKENSRUFURV9QT1NUX01VVEFUSU9OKVxuXG4gIGNvbnN0IGhhbmRsZVN1Ym1pdCA9IChldmVudCkgPT4ge1xuICAgIGV2ZW50LnByZXZlbnREZWZhdWx0KClcbiAgICBjb25zdCBmb3JtID0gZXZlbnQudGFyZ2V0XG4gICAgY29uc3QgZm9ybURhdGEgPSBuZXcgd2luZG93LkZvcm1EYXRhKGZvcm0pXG4gICAgY29uc3QgdGl0bGUgPSBmb3JtRGF0YS5nZXQoJ3RpdGxlJylcbiAgICBjb25zdCB1cmwgPSBmb3JtRGF0YS5nZXQoJ3VybCcpXG4gICAgZm9ybS5yZXNldCgpXG5cbiAgICBjcmVhdGVQb3N0KHtcbiAgICAgIHZhcmlhYmxlczogeyB0aXRsZSwgdXJsIH0sXG4gICAgICB1cGRhdGU6IChjYWNoZSwgeyBkYXRhOiB7IGNyZWF0ZVBvc3QgfSB9KSA9PiB7XG4gICAgICAgIGNhY2hlLm1vZGlmeSh7XG4gICAgICAgICAgZmllbGRzOiB7XG4gICAgICAgICAgICBhbGxQb3N0cyhleGlzdGluZ1Bvc3RzID0gW10pIHtcbiAgICAgICAgICAgICAgY29uc3QgbmV3UG9zdFJlZiA9IGNhY2hlLndyaXRlRnJhZ21lbnQoe1xuICAgICAgICAgICAgICAgIGRhdGE6IGNyZWF0ZVBvc3QsXG4gICAgICAgICAgICAgICAgZnJhZ21lbnQ6IGdxbGBcbiAgICAgICAgICAgICAgICAgIGZyYWdtZW50IE5ld1Bvc3Qgb24gYWxsUG9zdHMge1xuICAgICAgICAgICAgICAgICAgICBpZFxuICAgICAgICAgICAgICAgICAgICB0eXBlXG4gICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgYCxcbiAgICAgICAgICAgICAgfSlcbiAgICAgICAgICAgICAgcmV0dXJuIFtuZXdQb3N0UmVmLCAuLi5leGlzdGluZ1Bvc3RzXVxuICAgICAgICAgICAgfSxcbiAgICAgICAgICB9LFxuICAgICAgICB9KVxuICAgICAgfSxcbiAgICB9KVxuICB9XG5cbiAgY29uc3QgSW5wdXQgPSBzdHlsZWQuaW5wdXRgXG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgbWFyZ2luLWJvdHRvbTogMTBweDtcbiAgYFxuICByZXR1cm4gKFxuICAgIDxmb3JtIG9uU3VibWl0PXtoYW5kbGVTdWJtaXR9IGNzcz17Y3NzYFxuICAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNlY2VjZWM7XG4gICAgICBwYWRkaW5nLWJvdHRvbTogMjBweDtcbiAgICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XG4gICAgYH0+XG4gICAgICA8aDEgY3NzPXtjc3NgXG4gICAgICAgICAgZm9udC1zaXplOiAyMHB4O1xuICAgICAgICBgfT5TdWJtaXQ8L2gxPlxuICAgICAgPElucHV0IHBsYWNlaG9sZGVyPVwidGl0bGVcIiBuYW1lPVwidGl0bGVcIiB0eXBlPVwidGV4dFwiIHJlcXVpcmVkIC8+XG4gICAgICA8SW5wdXQgcGxhY2Vob2xkZXI9XCJ1cmxcIiBuYW1lPVwidXJsXCIgdHlwZT1cInVybFwiIHJlcXVpcmVkIC8+XG4gICAgICA8YnV0dG9uIHR5cGU9XCJzdWJtaXRcIiBkaXNhYmxlZD17bG9hZGluZ30+XG4gICAgICAgIFN1Ym1pdFxuICAgICAgPC9idXR0b24+XG4gICAgPC9mb3JtPlxuICApXG59XG4iXX0= */",
-        "name": "45dji0-Submit",
-        "styles": "border-bottom:1px solid #ececec;padding-bottom:20px;margin-bottom:20px;label:Submit;",
-        "toString": [Function],
-      }
-    }
-    onSubmit={[Function]}
-  >
-    <h1
-      css={
-        Object {
-          "map": "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlN1Ym1pdC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE0RGtCIiwiZmlsZSI6IlN1Ym1pdC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGdxbCwgdXNlTXV0YXRpb24gfSBmcm9tICdAYXBvbGxvL2NsaWVudCdcbmltcG9ydCBzdHlsZWQgZnJvbSAnQGVtb3Rpb24vc3R5bGVkJ1xuaW1wb3J0IHsgY3NzLCBqc3ggfSBmcm9tICdAZW1vdGlvbi9yZWFjdCdcblxuY29uc3QgQ1JFQVRFX1BPU1RfTVVUQVRJT04gPSBncWxgXG4gIG11dGF0aW9uIGNyZWF0ZVBvc3QoJHRpdGxlOiBTdHJpbmchLCAkdXJsOiBTdHJpbmchKSB7XG4gICAgY3JlYXRlUG9zdCh0aXRsZTogJHRpdGxlLCB1cmw6ICR1cmwpIHtcbiAgICAgIGlkXG4gICAgICB0aXRsZVxuICAgICAgdm90ZXNcbiAgICAgIHVybFxuICAgICAgY3JlYXRlZEF0XG4gICAgfVxuICB9XG5gXG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFN1Ym1pdCgpIHtcbiAgY29uc3QgW2NyZWF0ZVBvc3QsIHsgbG9hZGluZyB9XSA9IHVzZU11dGF0aW9uKENSRUFURV9QT1NUX01VVEFUSU9OKVxuXG4gIGNvbnN0IGhhbmRsZVN1Ym1pdCA9IChldmVudCkgPT4ge1xuICAgIGV2ZW50LnByZXZlbnREZWZhdWx0KClcbiAgICBjb25zdCBmb3JtID0gZXZlbnQudGFyZ2V0XG4gICAgY29uc3QgZm9ybURhdGEgPSBuZXcgd2luZG93LkZvcm1EYXRhKGZvcm0pXG4gICAgY29uc3QgdGl0bGUgPSBmb3JtRGF0YS5nZXQoJ3RpdGxlJylcbiAgICBjb25zdCB1cmwgPSBmb3JtRGF0YS5nZXQoJ3VybCcpXG4gICAgZm9ybS5yZXNldCgpXG5cbiAgICBjcmVhdGVQb3N0KHtcbiAgICAgIHZhcmlhYmxlczogeyB0aXRsZSwgdXJsIH0sXG4gICAgICB1cGRhdGU6IChjYWNoZSwgeyBkYXRhOiB7IGNyZWF0ZVBvc3QgfSB9KSA9PiB7XG4gICAgICAgIGNhY2hlLm1vZGlmeSh7XG4gICAgICAgICAgZmllbGRzOiB7XG4gICAgICAgICAgICBhbGxQb3N0cyhleGlzdGluZ1Bvc3RzID0gW10pIHtcbiAgICAgICAgICAgICAgY29uc3QgbmV3UG9zdFJlZiA9IGNhY2hlLndyaXRlRnJhZ21lbnQoe1xuICAgICAgICAgICAgICAgIGRhdGE6IGNyZWF0ZVBvc3QsXG4gICAgICAgICAgICAgICAgZnJhZ21lbnQ6IGdxbGBcbiAgICAgICAgICAgICAgICAgIGZyYWdtZW50IE5ld1Bvc3Qgb24gYWxsUG9zdHMge1xuICAgICAgICAgICAgICAgICAgICBpZFxuICAgICAgICAgICAgICAgICAgICB0eXBlXG4gICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgYCxcbiAgICAgICAgICAgICAgfSlcbiAgICAgICAgICAgICAgcmV0dXJuIFtuZXdQb3N0UmVmLCAuLi5leGlzdGluZ1Bvc3RzXVxuICAgICAgICAgICAgfSxcbiAgICAgICAgICB9LFxuICAgICAgICB9KVxuICAgICAgfSxcbiAgICB9KVxuICB9XG5cbiAgY29uc3QgSW5wdXQgPSBzdHlsZWQuaW5wdXRgXG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgbWFyZ2luLWJvdHRvbTogMTBweDtcbiAgYFxuICByZXR1cm4gKFxuICAgIDxmb3JtIG9uU3VibWl0PXtoYW5kbGVTdWJtaXR9IGNzcz17Y3NzYFxuICAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNlY2VjZWM7XG4gICAgICBwYWRkaW5nLWJvdHRvbTogMjBweDtcbiAgICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XG4gICAgYH0+XG4gICAgICA8aDEgY3NzPXtjc3NgXG4gICAgICAgICAgZm9udC1zaXplOiAyMHB4O1xuICAgICAgICBgfT5TdWJtaXQ8L2gxPlxuICAgICAgPElucHV0IHBsYWNlaG9sZGVyPVwidGl0bGVcIiBuYW1lPVwidGl0bGVcIiB0eXBlPVwidGV4dFwiIHJlcXVpcmVkIC8+XG4gICAgICA8SW5wdXQgcGxhY2Vob2xkZXI9XCJ1cmxcIiBuYW1lPVwidXJsXCIgdHlwZT1cInVybFwiIHJlcXVpcmVkIC8+XG4gICAgICA8YnV0dG9uIHR5cGU9XCJzdWJtaXRcIiBkaXNhYmxlZD17bG9hZGluZ30+XG4gICAgICAgIFN1Ym1pdFxuICAgICAgPC9idXR0b24+XG4gICAgPC9mb3JtPlxuICApXG59XG4iXX0= */",
-          "name": "15658uv-Submit",
-          "styles": "font-size:20px;label:Submit;",
-          "toString": [Function],
-        }
-      }
-    >
-      Submit
-    </h1>
-    <input
-      className="css-1rpuw8u-Input e1t727qs0"
-      name="title"
-      placeholder="title"
-      required={true}
-      type="text"
-    />
-    <input
-      className="css-1rpuw8u-Input e1t727qs0"
-      name="url"
-      placeholder="url"
-      required={true}
-      type="url"
-    />
+    This page show a list of Pokemons’ names and the owned total. Click on the list item to see Pokemon Detail.
     <button
-      disabled={false}
-      type="submit"
+      onClick={[Function]}
     >
-      Submit
+      Close
     </button>
-  </form>
+  </div>,
   <div>
     Loading
-  </div>
-</main>
+  </div>,
+]
 `;

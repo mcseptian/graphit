@@ -1,5 +1,5 @@
-import { css, Global, keyframes } from '@emotion/react'
-import styled from '@emotion/styled'
+import { css, Global, keyframes } from "@emotion/react";
+import styled from "@emotion/styled";
 
 export const globalStyles = (
   <Global
@@ -15,7 +15,7 @@ export const globalStyles = (
       }
     `}
   />
-)
+);
 
 export const bounce = keyframes`
   from {
@@ -24,7 +24,7 @@ export const bounce = keyframes`
   to {
     transform: scale(0.99);
   }
-`
+`;
 
 export const Animated = styled.div`
   ${basicStyles};
@@ -33,4 +33,4 @@ export const Animated = styled.div`
     background-color: linen;
   }
   animation: ${({ animation }) => animation} 0.2s infinite ease-in-out alternate;
-`
+`;

@@ -2,6 +2,40 @@
 
 Lean project to learn how graphql integration into nextjs
 
+## Environment Setup
+
+Clone this repository and install all of the dependencies before start
+
+```sh
+// Clonne using https
+git clone https://github.com/mcseptian/graphit.git
+
+// Install using npm
+npm install
+
+// or using yarn
+yarn install
+
+// start your local server to begin development
+npm run dev
+
+// or
+yarn dev
+
+```
+
+If you have trouble running dev server on windows, execute this command before running `yarn dev` or `npm run dev`
+
+```sh
+// PS
+
+$env:NODE_ENV="production"
+
+// CMD
+
+set NODE_ENV=production
+```
+
 ## Next Apollo Emotion Template
 
 This project created from next-with-apollo template, you could get fresh copy using these command:

@@ -1,49 +1,44 @@
-import { css, jsx } from '@emotion/react'
+import { useSessionStorage } from "../hooks/useSessionStorage";
+import myPokeListReducer from "../reducer/myPokeListReducer";
+import { createContext, useReducer, useEffect } from "react";
+
+export const MyPokeListContext = createContext();
 
 export default function App({ children }) {
+  const [localState, setLocalState] = useSessionStorage("data", []);
+
+  const [state, dispatch] = useReducer(myPokeListReducer, localState);
+
+  const dispatcher = {
+    removePokemon: function (date) {
+      const remove = {
+        date: date,
+      };
+      dispatch({
+        type: "REMOVE_ITEM",
+        payload: remove,
+      });
+      state && setLocalState(state.filter((item) => item.date !== date));
+    },
+    catchPokemon: function (id, image, name, nick) {
+      const catched = {
+        nick: nick,
+        name: name,
+        image: image,
+        id: id,
+        date: Date.now(),
+      };
+      dispatch({
+        type: "ADD_ITEM",
+        payload: catched,
+      });
+      state && setLocalState([...state, catched]);
+    },
+  };
+
   return (
-    <main
-      css={css`
-        * {
-          font-family: Menlo, Monaco, 'Lucida Console', 'Liberation Mono',
-            'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New',
-            monospace, serif;
-        }
-        body {
-          margin: 0;
-          padding: 25px 50px;
-        }
-        a {
-          color: #22bad9;
-        }
-        p {
-          font-size: 14px;
-          line-height: 24px;
-        }
-        article {
-          margin: 0 auto;
-          max-width: 650px;
-        }
-        button {
-          align-items: center;
-          background-color: #22bad9;
-          border: 0;
-          color: white;
-          display: flex;
-          padding: 5px 7px;
-          transition: background-color 0.3s;
-        }
-        button:active {
-          background-color: #1b9db7;
-        }
-        button:disabled {
-          background-color: #b5bebf;
-        }
-        button:focus {
-          outline: none;
-        }
-      `}>
+    <MyPokeListContext.Provider value={{ state, dispatcher }}>
       {children}
-    </main>
-  )
+    </MyPokeListContext.Provider>
+  );
 }
