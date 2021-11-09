@@ -33,7 +33,9 @@ export default function App({ children }) {
         type: "ADD_ITEM",
         payload: catched,
       });
-      state && setLocalState([...state, catched]);
+      state !== null
+        ? setLocalState([...state, catched])
+        : setLocalState([catched]);
     },
   };
 
