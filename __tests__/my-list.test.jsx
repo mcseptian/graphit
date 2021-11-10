@@ -1,24 +1,25 @@
 // __tests__/my-list.test.jsx
 
-/**
- * @jest-environment jsdom
- */
-
 import { getPage } from 'next-page-tester';
-import { screen, fireEvent } from '@testing-library/react';
+import { screen, act, fireEvent } from '@testing-library/react';
 
-describe('List page', () => {
+describe('My List page', () => {
   it('renders client page', async () => {
-    const { render } = await getPage({
-      route: '/my-list'
+    const router = await getPage({
+      route: '/my-list',
+      pathname: '/my-list',
+      useApp: true
     });
 
-    render();
-
+    router.render();
+    
     expect(screen.getByText('reload')).toBeInTheDocument();
 
-    fireEvent.click(screen.getByText('reload'));
+    act(() => {
+      fireEvent.click(screen.getByText('reload'));
+    })
     
     await screen.findByText('reload');
+
   });
 });

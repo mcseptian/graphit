@@ -1,5 +1,5 @@
 import { css, jsx } from "@emotion/react";
-import Image from "next/image";
+import Image from "./Image";
 
 export default function ListCard({ name, image, nick }) {
   return (
@@ -19,13 +19,7 @@ export default function ListCard({ name, image, nick }) {
           position: static;
         `}
       >
-        <Image
-          src={image}
-          alt={name}
-          width={200}
-          height={200}
-          layout="intrinsic"
-        />
+        <Image src={image} alt={name} width={200} height={200} />
       </div>
       <div
         css={css`

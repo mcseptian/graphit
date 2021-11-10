@@ -54,7 +54,7 @@ const useRouter = jest.spyOn(require("next/router"), "useRouter");
 
 it("renders homepage unchanged", () => {
   useRouter.mockImplementationOnce(() => ({
-    pathname: "/my-list",
+    pathname: "/",
   }));
 
   const tree = create(

@@ -1,5 +1,5 @@
 import { css, jsx } from "@emotion/react";
-import Image from "next/image";
+import Image from "./Image";
 
 export default function DetailCard(props) {
   const { name, sprites, moves, types } = props.pokemon;
@@ -121,7 +121,15 @@ export default function DetailCard(props) {
         align-items: center;
       `}
     >
-      <Image src={sprites.front_default} alt="name" width={300} height={300} />
+      <div>
+        <Image
+          src={sprites.front_default}
+          alt="name"
+          width={300}
+          height={300}
+          layout="ratio"
+        />
+      </div>
       <div
         css={css`
           padding: 30px;

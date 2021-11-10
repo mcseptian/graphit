@@ -35,7 +35,7 @@ export default function MyPokemonList() {
         `}
       >
         {!myPokemons && (
-          <ErrorMessage message="You have no pokemon, catch them!" />
+          <ErrorMessage message="You have no pokemon, go catch them!" />
         )}
         {myPokemons &&
           myList.map(({ image, name, date, nick }, index) => (
@@ -87,6 +87,9 @@ export default function MyPokemonList() {
                 >
                   <span
                     css={css`
+                      font-weight: normal;
+                      font-style: normal;
+                      font-family: "Ubuntu", sans-serif;
                       vertical-align: middle;
                       padding: 10px;
                       margin-right: 20px;

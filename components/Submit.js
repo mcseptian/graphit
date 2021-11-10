@@ -68,8 +68,8 @@ export default function Submit({ pokemon, onChange }) {
           padding: 20px;
           margin-bottom: 20px;
           min-width: 250px;
-          width: fit-content;
-          max-width: 660px;
+          width: 100%;
+          max-width: 450px;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -89,7 +89,8 @@ export default function Submit({ pokemon, onChange }) {
             text-align: center;
           `}
         >
-          Yeay, you catch {name}. You have to give it a nickname.
+          Yeay, you catch <strong>{name}</strong>.<br /> You have to give it a
+          nickname.
         </h1>
         <input
           css={css`
@@ -196,7 +197,8 @@ export default function Submit({ pokemon, onChange }) {
 
         {isSuccess && (
           <InfoBox>
-            Yeay, you have your own pokemon. <br />
+            Yeay, you have your own pokemon now.
+            <br />
             Let's check them on your <Link href="/my-list">list</Link>.
           </InfoBox>
         )}

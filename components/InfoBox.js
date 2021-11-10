@@ -10,6 +10,7 @@ const InfoBox = ({ children }) => {
 
   return (
     <div
+      data-testid="infoBox"
       css={css`
         padding-top: 20px;
         padding-bottom: 20px;
@@ -30,7 +31,7 @@ const InfoBox = ({ children }) => {
           letter-spacing: 0.02em;
           font-weight: normal;
           font-style: normal;
-          font-size: 28px;
+          font-size: 24px;
           font-family: "Ubuntu", sans-serif;
           color: #1dabf2;
         `}
@@ -38,6 +39,7 @@ const InfoBox = ({ children }) => {
         {children}
       </div>
       <button
+        data-testid="infoBoxCloseButton"
         css={css`
           padding: 10px 20px;
           outline: none;
