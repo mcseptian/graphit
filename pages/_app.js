@@ -1,5 +1,5 @@
 import { ApolloProvider } from "@apollo/client";
-import { useApollo, APOLLO_STATE_PROP_NAME } from "../lib/apolloClient";
+import { useApollo } from "../lib/apolloClient";
 
 export default function App({ Component, pageProps }) {
   const apolloClient = useApollo(pageProps);

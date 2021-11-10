@@ -41,7 +41,7 @@ export default function PokemonList() {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    setMyList(state);
+    // setMyList(state);
     setIsMounted(true);
   }, [state]);
 
@@ -82,8 +82,6 @@ export default function PokemonList() {
       },
     });
   };
-
-  const listLength = myList && myList.length;
 
   return (
     <section
@@ -133,17 +131,18 @@ export default function PokemonList() {
       {isMounted && (
         <InfoBox>
           You have{" "}
-          {listLength && listLength > 1
-            ? `${listLength} pokemons`
-            : `${listLength} pokemon`}{" "}
-          on your list.
+          {myList && myList.Length > 1
+            ? `${myList.length} pokemons`
+            : `${myList.Length} pokemon`}{" "}
+          } on your list.
         </InfoBox>
       )}
       <div
         css={css`
           display: flex;
-          justify-content: center;
+          justify-content: space-around;
           align-items: center;
+          flex-grow: 1;
         `}
       >
         {prevPosts && (
@@ -151,6 +150,7 @@ export default function PokemonList() {
             css={css`
               padding: 10px 20px;
               outline: none;
+              margin: 20px auto;
               margin: 20px auto;
               font-style: normal;
               font-family: "Ubuntu", sans-serif;

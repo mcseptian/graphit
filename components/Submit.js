@@ -52,7 +52,7 @@ export default function Submit({ pokemon, onChange }) {
         width: 100vw;
         height: 100vh;
         position: fixed;
-        top: 0;
+        top: 70px;
         lefft: 0;
         bottom: 0;
         justify-content: center;
