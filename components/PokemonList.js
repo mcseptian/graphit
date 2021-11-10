@@ -83,7 +83,7 @@ export default function PokemonList() {
     });
   };
 
-  const listLength = myList && myList.length;
+  const listLength = myList !== null ? myList.length : "no";
 
   return (
     <section
